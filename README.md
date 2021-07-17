@@ -1,3 +1,3 @@
-QubiC experiment and calibration
+QubiC calibration
 This repo store the electronics hardware configuration and qubit calibration data.
-Each chip have its own branch and not much expected to be store in the master branch. 
+Each chip have its own directory and not much expected to be store in the top directory. 
