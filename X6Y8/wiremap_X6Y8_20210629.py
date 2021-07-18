@@ -1,3 +1,4 @@
+gates=['Q4X90','Q5X90','Q6X90','Q5Q4CNOT','Q5Q6CNOT','Q6read','Q5read','Q1read','Q4X180','Q5X180','Q6X180','Q1X90','Q2X90','Q3X90','Q0X90','Q7X90']
 chanmapqubit={'Q0.rdrv':0
 		,'Q1.rdrv':0
 		,'Q2.rdrv':0
@@ -126,3 +127,15 @@ patchlistall={'Q0.rdrv':8e-9,'Q0.read':8e-9,'Q0.qdrv':8e-9
 		,'Q6.rdrv':8e-9,'Q6.read':8e-9,'Q6.qdrv':8e-9
 		,'Q7.rdrv':0,'Q7.read':0,'Q7.qdrv':0
 		,'M0.mark':0}
+patchmaxlistall={'Q0.rdrv':32,'Q0.read':32,'Q0.qdrv':32
+		,'Q1.rdrv':32,'Q1.read':32,'Q1.qdrv':32
+		,'Q2.rdrv':32,'Q2.read':32,'Q2.qdrv':32
+		,'Q3.rdrv':32,'Q3.read':32,'Q3.qdrv':32
+		,'Q4.rdrv':32,'Q4.read':32,'Q4.qdrv':32
+		,'Q5.rdrv':32,'Q5.read':32,'Q5.qdrv':32
+		,'Q6.rdrv':32,'Q6.read':32,'Q6.qdrv':32
+		,'Q7.rdrv':32,'Q7.read':32,'Q7.qdrv':32
+		,'M0.mark':32}
+patchdict=patchmaxlistall
+elemdict=elementlistall
+destdict=destlistall
