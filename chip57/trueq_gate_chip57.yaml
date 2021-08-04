@@ -11,7 +11,7 @@ Gates:
 
 - X:
     Hamiltonian:
-      - ["X", phi]
+      - ["X", 90]
     Involving: {'(5,)': (), '(6,)': ()}
 
 - CNOT:

@@ -140,12 +140,13 @@ elemdict=elementlistall
 destdict=destlistall
 
 gates=[
-		'Q5X90'
-		,'Q6X90'
-#,'Q5Q4CNOT'
-#,'Q5Q6CNOT'
+'Q6Q5CNOT'
+,'Q5X90'
+,'Q6X90'
 ,'Q6read'
 ,'Q5read'
+#,'Q5Q4CNOT'
+#,'Q5Q6CNOT'
 #,'Q1read'
 #,'Q4X180'
 #,'Q5X180'
