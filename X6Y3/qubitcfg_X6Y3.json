@@ -3027,7 +3027,7 @@
                 "dest": "Q0.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
-                "twidth": 1.48e-07,
+                "twidth": 2.24e-07,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -3038,7 +3038,7 @@
                     }
                 ],
                 "fcarrier": "Q1.freq",
-                "amp": 0.5982519603755765
+                "amp": 0.2640460651979791
             }
         ],
         "CNOT(Q0Q1).Q1X": [
@@ -3064,14 +3064,14 @@
         "Q0Q1CNOT": [
             {
                 "dest": "Q0.qdrv",
-                "pcarrier": -3.889185503115502,
+                "pcarrier": 0.8574686051503857,
                 "fcarrier": "Q0.freq",
-                "t0": 1.48e-07,
+                "t0": 2.24e-07,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": 1.5,
+                            "alpha": 0.44,
                             "sigmas": 3,
                             "delta": -268000000.0
                         }
@@ -3082,9 +3082,9 @@
             },
             {
                 "dest": "Q0.qdrv",
-                "pcarrier": 8.297137216046051,
+                "pcarrier": 7.050621189966137,
                 "t0": 0.0,
-                "twidth": 1.48e-07,
+                "twidth": 2.24e-07,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -3095,25 +3095,25 @@
                     }
                 ],
                 "fcarrier": "Q1.freq",
-                "amp": 0.5982519603755765
+                "amp": 0.2640460651979791
             },
             {
                 "dest": "Q1.qdrv",
-                "pcarrier": -2.0139519088664652,
+                "pcarrier": -0.7674358827865504,
                 "fcarrier": "Q1.freq",
-                "t0": 1.48e-07,
+                "t0": 2.24e-07,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": 1.0,
+                            "alpha": 0.12,
                             "sigmas": 3,
                             "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.7019350308289194,
-                "twidth": 6.4e-08
+                "amp": 0.622234397033188,
+                "twidth": 3.2e-08
             }
         ],
         "CR(Q1Q2)": [
