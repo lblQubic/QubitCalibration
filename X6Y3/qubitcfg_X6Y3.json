@@ -1,49 +1,55 @@
 {
     "Qubits": {
         "Q7": {
-            "freq": 125118324.72843209,
-            "readfreq": 316701747.25216424,
-            "freq_ef": -128000000.0
+            "freq": 5535118324.728432,
+            "readfreq": 6836701747.252164,
+            "freq_ef": 5282000000.0
         },
         "Q6": {
-            "freq": 427034668.76465726,
-            "readfreq": 264046311.6904602,
-            "freq_ef": -70000000.0
+            "freq": 5837034668.764657,
+            "readfreq": 6784046311.69046,
+            "freq_ef": 5340000000.0
         },
         "Q5": {
-            "freq": 89369329.30358028,
-            "readfreq": 190675808.35104373,
-            "freq_ef": -22000000.0
+            "freq": 5499369329.30358,
+            "readfreq": 6710675808.351044,
+            "freq_ef": 5388000000.0
         },
         "Q4": {
-            "freq": 49176766.56551969,
-            "readfreq": 188400000.0,
-            "freq_ef": -207000000.0
+            "freq": 5459176766.565519,
+            "readfreq": 6708400000.0,
+            "freq_ef": 5203000000.0
         },
         "Q3": {
-            "freq": -143510140.45277086,
-            "readfreq": 179598761.70551828,
-            "freq_ef": -306000000.0
+            "freq": 5266489859.547229,
+            "readfreq": 6699598761.705519,
+            "freq_ef": 5104000000.0
         },
         "Q2": {
-            "freq": -260461986.03478032,
-            "readfreq": 139092816.64921114,
-            "freq_ef": 0.0
+            "freq": 5149538013.9652195,
+            "readfreq": 6659092816.649211,
+            "freq_ef": 5410000000.0
         },
         "Q1": {
-            "freq": -111258581.57446525,
-            "readfreq": 39238882.41546464,
-            "freq_ef": 0.0
+            "freq": 5298741418.425535,
+            "readfreq": 6559238882.415464,
+            "freq_ef": 5410000000.0
         },
         "Q0": {
-            "freq": 28389879.722483482,
-            "readfreq": 35253780.32327869,
-            "freq_ef": -325000000.0
+            "freq": 5438389879.722484,
+            "readfreq": 6555253780.323278,
+            "freq_ef": 5085000000.0
         },
         "M1": {},
         "M0": {},
         "M3": {},
-        "M2": {}
+        "M2": {},
+		"vna":{
+			"readfreq": 0
+		},
+		"alignment":{
+			"readfreq":6.5e9 
+		}
     },
     "Gates": {
         "M0mark": [
@@ -340,6 +346,86 @@
                 ],
                 "amp": 0.12789158647913834,
                 "twidth": 4.8e-08
+            }
+        ],
+        "alignmentread": [
+            {
+                "dest": "alignment.rdrv",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "alignment.readfreq",
+                "t0": 0.0,
+                "amp": 1.0,
+                "twidth": 1e-06
+            },
+            {
+                "dest": "alignment.read",
+                "pcarrier": 0.0,
+                "t0": 6.08e-07,
+                "fcarrier": "alignment.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 1e-06
+            }
+        ],
+        "vnaread": [
+            {
+                "dest": "vna.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "vna.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.2534897039105451,
+                "twidth": 2e-06
+            },
+            {
+                "dest": "vna.read",
+                "pcarrier": 0.0,
+                "t0": 6.08e-07,
+                "fcarrier": "vna.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 2e-06
             }
         ],
         "Q0read": [

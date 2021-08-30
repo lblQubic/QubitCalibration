@@ -28,7 +28,7 @@ chanmapqubit={'Q0.rdrv':0
 		,'M3.mark':16
 		}
 lor=0.0#6.52e9
-loq=0.0#5.5e9
+loq=0.0#5.6e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
 		,'Q2.rdrv':lor
