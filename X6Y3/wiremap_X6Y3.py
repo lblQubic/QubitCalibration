@@ -103,14 +103,15 @@ lofreq={'Q0.rdrv':lor
 #		,'Q6Q5CNOT'
 #		,'Q6Q7CNOT'
 #		,'Q7Q0CNOT']
-elemdict={'Q0.qdrv':0,'Q0.read':8,'Q0.rdrv':0
-		,'Q1.qdrv':1,'Q1.read':9,'Q1.rdrv':1
-		,'Q2.qdrv':2,'Q2.read':10,'Q2.rdrv':2
-		,'Q3.qdrv':3,'Q3.read':8,'Q3.rdrv':3
-		,'Q4.qdrv':4,'Q4.read':9,'Q4.rdrv':4
-		,'Q5.qdrv':5,'Q5.read':10,'Q5.rdrv':5
-		,'Q6.qdrv':6,'Q6.read':8,'Q6.rdrv':6
-		,'Q7.qdrv':7,'Q7.read':9,'Q7.rdrv':7
+elemdict={
+ 		 'Q1.qdrv':0,'Q1.read':8,'Q1.rdrv':0
+		,'Q2.qdrv':1,'Q2.read':9,'Q2.rdrv':1
+		,'Q0.qdrv':2,'Q0.read':10,'Q0.rdrv':2
+		,'Q3.qdrv':2,'Q3.read':10,'Q3.rdrv':2
+		,'Q4.qdrv':2,'Q4.read':10,'Q4.rdrv':2
+		,'Q5.qdrv':2,'Q5.read':10,'Q5.rdrv':2
+		,'Q6.qdrv':2,'Q6.read':10,'Q6.rdrv':2
+		,'Q7.qdrv':2,'Q7.read':10,'Q7.rdrv':2
 		,'M0.mark':12}
 destdict={'Q0.qdrv':2,'Q0.read':4,'Q0.rdrv':0
 		,'Q1.qdrv':3,'Q1.read':5,'Q1.rdrv':0

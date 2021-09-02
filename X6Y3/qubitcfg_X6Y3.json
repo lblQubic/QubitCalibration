@@ -16,8 +16,8 @@
             "freq_ef": 5388000000.0
         },
         "Q4": {
-            "freq": 5459176766.565519,
-            "readfreq": 6708400000.0,
+            "freq": 5.5637e9,
+            "readfreq": 6708200000.0,
             "freq_ef": 5203000000.0
         },
         "Q3": {
@@ -317,7 +317,7 @@
                     }
                 ],
                 "amp": 0.12789158647913834,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q0rabiaxn": [
@@ -456,7 +456,7 @@
             },
             {
                 "dest": "Q0.read",
-                "pcarrier": 0.0,
+                "pcarrier": 0.47079526533056987,
                 "t0": 6.08e-07,
                 "fcarrier": "Q0.readfreq",
                 "env": [
@@ -604,30 +604,15 @@
         ],
         "Q1Y-90": [
             {
-                "dest": "Q1.qdrv",
-                "env1": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
                 "pcarrier": "-numpy.pi/2.0",
                 "fcarrier": "Q1.freq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "DRAG",
-                        "paradict": {
-                            "alpha": 0.32,
-                            "sigmas": 3,
-                            "delta": -268000000.0
-                        }
-                    }
-                ],
-                "amp": 0.39413560858688484,
-                "twidth": 3.2e-08
+                "t0": 0.0
+            },
+			"Q1X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0
             }
         ],
         "Q1Y180": [
@@ -767,7 +752,7 @@
                     }
                 ],
                 "amp": 0.39413560858688484,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q1rabiaxn": [
@@ -826,7 +811,8 @@
             },
             {
                 "dest": "Q1.read",
-                "pcarrier": 0.0,
+                "pcarrier": 0.91937,
+                "pcarrier1": "numpy.pi/2.0",
                 "t0": 6.08e-07,
                 "fcarrier": "Q1.readfreq",
                 "env": [
@@ -974,30 +960,15 @@
         ],
         "Q2Y-90": [
             {
-                "dest": "Q2.qdrv",
-                "env1": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
                 "pcarrier": "-numpy.pi/2.0",
                 "fcarrier": "Q2.freq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "DRAG",
-                        "paradict": {
-                            "alpha": 0.64,
-                            "sigmas": 3,
-                            "delta": -268000000.0
-                        }
-                    }
-                ],
-                "amp": 0.4259764156106614,
-                "twidth": 3.2e-08
+                "t0": 0.0
+            },
+			"Q2X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": 0.0
             }
         ],
         "Q2Y180": [
@@ -1137,7 +1108,7 @@
                     }
                 ],
                 "amp": 0.4259764156106614,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q2rabiaxn": [
@@ -1196,7 +1167,7 @@
             },
             {
                 "dest": "Q2.read",
-                "pcarrier": 0.0,
+                "pcarrier": 0.354347,
                 "t0": 6.08e-07,
                 "fcarrier": "Q2.readfreq",
                 "env": [
@@ -1507,7 +1478,7 @@
                     }
                 ],
                 "amp": 0.22134623311351126,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q3rabiaxn": [
@@ -1566,7 +1537,7 @@
             },
             {
                 "dest": "Q3.read",
-                "pcarrier": 0.0,
+                "pcarrier": 1.6046376883078761,
                 "t0": 6.08e-07,
                 "fcarrier": "Q3.readfreq",
                 "env": [
@@ -1708,8 +1679,8 @@
                         }
                     }
                 ],
-                "amp": 0.2522500061737865,
-                "twidth": 3.2e-08
+                "amp": 0.7257,
+                "twidth": 128e-9
             }
         ],
         "Q4Y-90": [
@@ -1876,8 +1847,8 @@
                         }
                     }
                 ],
-                "amp": 0.2511815175138611,
-                "twidth": 1e-06
+                "amp": 0.7257,
+                "twidth": 128e-9
             }
         ],
         "Q4rabiaxn": [
@@ -1936,7 +1907,7 @@
             },
             {
                 "dest": "Q4.read",
-                "pcarrier": 0.0,
+                "pcarrier": 5.063616334653755,
                 "t0": 6.4e-07,
                 "fcarrier": "Q4.readfreq",
                 "env": [
@@ -2247,7 +2218,7 @@
                     }
                 ],
                 "amp": 0.7934009606911271,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q5rabiaxn": [
@@ -2306,7 +2277,7 @@
             },
             {
                 "dest": "Q5.read",
-                "pcarrier": 0.0,
+                "pcarrier": 2.4044574915574213,
                 "t0": 6.08e-07,
                 "fcarrier": "Q5.readfreq",
                 "env": [
@@ -2617,7 +2588,7 @@
                     }
                 ],
                 "amp": 0.2763817378284582,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q6rabiaxn": [
@@ -2676,7 +2647,7 @@
             },
             {
                 "dest": "Q6.read",
-                "pcarrier": 0.0,
+                "pcarrier": 0.9737789501038118,
                 "t0": 6.08e-07,
                 "fcarrier": "Q6.readfreq",
                 "env": [
@@ -2987,7 +2958,7 @@
                     }
                 ],
                 "amp": 0.1264838401525755,
-                "twidth": 1e-06
+                "twidth": 32e-9
             }
         ],
         "Q7rabiaxn": [
@@ -3046,7 +3017,7 @@
             },
             {
                 "dest": "Q7.read",
-                "pcarrier": 0.0,
+                "pcarrier": 1.421583631890673,
                 "t0": 6.08e-07,
                 "fcarrier": "Q7.readfreq",
                 "env": [
@@ -3108,7 +3079,7 @@
                 "twidth": 2e-06
             }
         ],
-        "CR(Q0Q1)": [
+        "Q0Q1CR": [
             {
                 "dest": "Q0.qdrv",
                 "pcarrier": 0.0,
@@ -3202,7 +3173,7 @@
                 "twidth": 6.4e-08
             }
         ],
-        "CR(Q1Q2)": [
+        "Q1Q2CR": [
             {
                 "dest": "Q1.qdrv",
                 "pcarrier": 0.0,
@@ -3243,39 +3214,15 @@
         ],
         "Q1Q2CNOT": [
             {
-                "dest": "Q1.qdrv",
-                "pcarrier": 0.4577495053852681,
-                "fcarrier": "Q1.freq",
-                "t0": 1.92e-07,
-                "env": [
-                    {
-                        "env_func": "DRAG",
-                        "paradict": {
-                            "alpha": 0.32,
-                            "sigmas": 3,
-                            "delta": -268000000.0
-                        }
-                    }
-                ],
-                "amp": 0,
-                "twidth": 4e-09
-            },
-            {
-                "dest": "Q1.qdrv",
                 "pcarrier": 6.141662916776123,
                 "t0": 0.0,
-                "twidth": 1.92e-07,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25,
-                            "ramp_length": 3.2e-08
-                        }
-                    }
-                ],
-                "fcarrier": "Q2.freq",
-                "amp": 0.9107330318806217
+                "fcarrier": "Q2.freq"
+            },
+			"Q1Q2CR",
+            {
+                "pcarrier": 0.4577495053852681,
+                "fcarrier": "Q1.freq",
+                "t0": 1.92e-07
             },
             {
                 "dest": "Q2.qdrv",
@@ -3296,7 +3243,7 @@
                 "twidth": 3.2e-08
             }
         ],
-        "CR(Q3Q2)": [
+        "Q3Q2CR": [
             {
                 "dest": "Q3.qdrv",
                 "pcarrier": 0.0,
@@ -3390,7 +3337,7 @@
                 "twidth": 6.4e-08
             }
         ],
-        "CR(Q4Q3)": [
+        "Q4Q3CR": [
             {
                 "dest": "Q4.qdrv",
                 "pcarrier": 0.0,
@@ -3484,7 +3431,7 @@
                 "twidth": 6.4e-08
             }
         ],
-        "CR(Q5Q4)": [
+        "Q5Q4CR": [
             {
                 "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
@@ -3578,7 +3525,7 @@
                 "twidth": 6.4e-08
             }
         ],
-        "CR(Q6Q5)": [
+        "Q6Q5CR": [
             {
                 "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
@@ -3672,7 +3619,7 @@
                 "twidth": 3.2e-08
             }
         ],
-        "CR(Q6Q7)": [
+        "Q6Q7CR": [
             {
                 "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
@@ -3766,7 +3713,7 @@
                 "twidth": 3.2e-08
             }
         ],
-        "CR(Q7Q0)": [
+        "Q7Q0CR": [
             {
                 "dest": "Q7.qdrv",
                 "pcarrier": 0.0,
