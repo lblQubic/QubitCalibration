@@ -27,8 +27,8 @@ chanmapqubit={'Q0.rdrv':0
 		,'M2.mark':15
 		,'M3.mark':16
 		}
-lor=0.0#6.52e9
-loq=0.0#5.6e9
+lor=6.52e9
+loq=5.6e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
 		,'Q2.rdrv':lor
@@ -57,6 +57,10 @@ lofreq={'Q0.rdrv':lor
 		,'M1.mark':0
 		,'M2.mark':0
 		,'M3.mark':0
+		,'alignment.read':lor
+		,'alignment.rdrv':lor
+		,'vna.read':lor
+		,'vna.rdrv':lor
 		}
 dacelementsdest=['Q0.rdrv'
 		,'Q1.rdrv'
@@ -116,6 +120,8 @@ destlistall={'Q0.qdrv':2,'Q0.read':4,'Q0.rdrv':0
 		,'Q5.qdrv':3,'Q5.read':6,'Q5.rdrv':0
 		,'Q6.qdrv':2,'Q6.read':4,'Q6.rdrv':0
 		,'Q7.qdrv':1,'Q7.read':5,'Q7.rdrv':0
+		,'vna.read':5,'vna.rdrv':0
+		,'alignment.read':5,'alignment.rdrv':0
 		,'M0.mark':12}
 patchlistall={'Q0.rdrv':8e-9,'Q0.read':8e-9,'Q0.qdrv':8e-9
 		,'Q1.rdrv':0,'Q1.read':0,'Q1.qdrv':0

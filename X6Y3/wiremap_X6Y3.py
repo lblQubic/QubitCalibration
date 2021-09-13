@@ -168,8 +168,8 @@ switchmap={
 		,'Q1.qdrv':None
 		,'Q2.qdrv':None
 		,'Q3.qdrv':3
-		,'Q4.qdrv':2
-		,'Q5.qdrv':5
+		,'Q4.qdrv':5
+		,'Q5.qdrv':2
 		,'Q6.qdrv':1
 		,'Q7.qdrv':4
 		,'Q0.rdrv':None
@@ -193,5 +193,6 @@ switchmap={
 		,'vna.read':None
 		,'vna.rdrv':None
 		}
-switchdev={"id":"switch8","hostname":"qubic"}
-stepvatdev={"id":"attn1","hostname":"qubic2"}
+ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"qubic","default":0}
+		,"rdrvvat":{"deviceid":"attn1","hostname":"qubic2","default":8}
+		}
