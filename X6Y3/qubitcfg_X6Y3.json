@@ -1318,7 +1318,7 @@
                 "dest": "Q0.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
-                "twidth": 2.56e-07,
+                "twidth": 2.88e-07,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -1329,31 +1329,31 @@
                     }
                 ],
                 "fcarrier": "Q1.freq",
-                "amp": 0.22847109102053384
+                "amp": 0.20166848543595456
             }
         ],
         "Q0Q1CNOT": [
             {
-                "pcarrier": 4.069561833163627,
+                "pcarrier": 4.046571776383167,
                 "t0": 0.0,
                 "fcarrier": "Q1.freq"
             },
             "Q0Q1CR",
             {
-                "pcarrier": -4.069561833163627,
-                "t0": 2.48e-07,
+                "pcarrier": -4.046571776383167,
+                "t0": 2.7999999999999997e-07,
                 "fcarrier": "Q1.freq"
             },
             {
-                "pcarrier": 0.16051900811503192,
+                "pcarrier": -0.18036597287098935,
                 "fcarrier": "Q0.freq",
-                "t0": 2.48e-07
+                "t0": 2.7999999999999997e-07
             },
             {
                 "dest": "Q1.qdrv",
                 "pcarrier": 0,
                 "fcarrier": "Q1.freq",
-                "t0": 2.56e-07,
+                "t0": 2.88e-07,
                 "env": [
                     {
                         "env_func": "DRAG",
@@ -1364,7 +1364,7 @@
                         }
                     }
                 ],
-                "amp": 0.5586873701286295,
+                "amp": 0.559772298328965,
                 "twidth": 6.4e-08
             }
         ],
@@ -1450,20 +1450,20 @@
         ],
         "Q3Q2CNOT": [
             {
-                "pcarrier": -2.347177564786379,
+                "pcarrier": -2.3549967408226253,
                 "t0": 0.0,
                 "fcarrier": "Q2.freq"
             },
             "Q3Q2CR",
             {
-                "pcarrier": 2.347177564786379,
-                "t0": 2.48e-07,
+                "pcarrier": 2.3549967408226253,
+                "t0": 2.56e-07,
                 "fcarrier": "Q2.freq"
             },
             {
-                "pcarrier": 1.0656069219692517,
+                "pcarrier": 0.9956481629947604,
                 "fcarrier": "Q3.freq",
-                "t0": 2.48e-07
+                "t0": 2.56e-07
             },
             {
                 "dest": "Q2.qdrv",
@@ -1480,10 +1480,37 @@
                         }
                     }
                 ],
-                "amp": 0.892426158044824,
+                "amp": 0.9178135623741348,
                 "twidth": 3.2e-08
             }
         ],
+        "Q2Q3CNOT": [
+            {"pcarrier": "-numpy.pi/2.0","t0": 0.0,"fcarrier": "Q2.freq"},
+			{"pcarrier": "-numpy.pi/2.0","t0": 0.0,"fcarrier": "Q3.freq"},
+			{"dest":"Q2.qdrv","pcarrier":0.0,"fcarrier":"Q2.freq","t0":0.0,"env":[{"env_func":"DRAG","paradict":{"alpha":0.6154459318445684,"sigmas":3,"delta":-268000000.0}}],"amp":0.42578458901494914,"twidth":3.2e-08},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"fcarrier":"Q3.freq","t0":0.0,"env":[{"env_func":"DRAG","paradict":{"alpha":-1.0542730309806223,"sigmas":3,"delta":-268000000.0}}],"amp":0.22095632331366138,"twidth":3.2e-08},
+            {"pcarrier": "numpy.pi/2.0","t0": 32e-9,"fcarrier": "Q2.freq"},
+			{"pcarrier": "numpy.pi/2.0","t0": 32e-9,"fcarrier": "Q3.freq"},
+			{"dest":"Q2.qdrv","pcarrier":0.0,"fcarrier":"Q2.freq","t0":32e-9,"env":[{"env_func":"DRAG","paradict":{"alpha":0.6154459318445684,"sigmas":3,"delta":-268000000.0}}],"amp":0.42578458901494914,"twidth":3.2e-08},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"fcarrier":"Q3.freq","t0":32e-9,"env":[{"env_func":"DRAG","paradict":{"alpha":-1.0542730309806223,"sigmas":3,"delta":-268000000.0}}],"amp":0.22095632331366138,"twidth":3.2e-08},
+			{"dest":"Q2.qdrv","pcarrier":0.0,"fcarrier":"Q2.freq","t0":64e-9,"env":[{"env_func":"DRAG","paradict":{"alpha":0.6154459318445684,"sigmas":3,"delta":-268000000.0}}],"amp":0.42578458901494914,"twidth":3.2e-08},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"fcarrier":"Q3.freq","t0":64e-9,"env":[{"env_func":"DRAG","paradict":{"alpha":-1.0542730309806223,"sigmas":3,"delta":-268000000.0}}],"amp":0.22095632331366138,"twidth":3.2e-08},
+			{"pcarrier":-2.3549967408226253,"t0":96e-9,"fcarrier":"Q2.freq"},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"t0":96e-9,"twidth":2.56e-07,"env":[{"env_func":"cos_edge_square","paradict":{"ramp_fraction":0.25,"ramp_length":3.2e-08}}],"fcarrier":"Q2.freq","amp":0.4223483993580974},
+			{"pcarrier":2.3549967408226253,"t0":3.52e-07,"fcarrier":"Q2.freq"},
+			{"pcarrier":0.9956481629947604,"fcarrier":"Q3.freq","t0":3.52e-07},
+			{"dest":"Q2.qdrv","pcarrier":0,"fcarrier":"Q2.freq","t0":3.52e-07,"env":[{"env_func":"DRAG","paradict":{"alpha":0.64,"sigmas":3,"delta":-268000000.0}}],"amp":0.9178135623741348,"twidth":3.2e-08},
+            {"pcarrier": "-numpy.pi/2.0","t0": 3.84e-7,"fcarrier": "Q2.freq"},
+			{"pcarrier": "-numpy.pi/2.0","t0": 3.84e-7,"fcarrier": "Q3.freq"},
+			{"dest":"Q2.qdrv","pcarrier":0.0,"fcarrier":"Q2.freq","t0":3.84e-7,"env":[{"env_func":"DRAG","paradict":{"alpha":0.6154459318445684,"sigmas":3,"delta":-268000000.0}}],"amp":0.42578458901494914,"twidth":3.2e-08},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"fcarrier":"Q3.freq","t0":3.84e-7,"env":[{"env_func":"DRAG","paradict":{"alpha":-1.0542730309806223,"sigmas":3,"delta":-268000000.0}}],"amp":0.22095632331366138,"twidth":3.2e-08},
+            {"pcarrier": "numpy.pi/2.0","t0": 4.16e-7,"fcarrier": "Q2.freq"},
+			{"pcarrier": "numpy.pi/2.0","t0": 4.16e-7,"fcarrier": "Q3.freq"},
+			{"dest":"Q2.qdrv","pcarrier":0.0,"fcarrier":"Q2.freq","t0":4.16e-7,"env":[{"env_func":"DRAG","paradict":{"alpha":0.6154459318445684,"sigmas":3,"delta":-268000000.0}}],"amp":0.42578458901494914,"twidth":3.2e-08},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"fcarrier":"Q3.freq","t0":4.16e-7,"env":[{"env_func":"DRAG","paradict":{"alpha":-1.0542730309806223,"sigmas":3,"delta":-268000000.0}}],"amp":0.22095632331366138,"twidth":3.2e-08},
+			{"dest":"Q2.qdrv","pcarrier":0.0,"fcarrier":"Q2.freq","t0":4.48e-7,"env":[{"env_func":"DRAG","paradict":{"alpha":0.6154459318445684,"sigmas":3,"delta":-268000000.0}}],"amp":0.42578458901494914,"twidth":3.2e-08},
+			{"dest":"Q3.qdrv","pcarrier":0.0,"fcarrier":"Q3.freq","t0":4.48e-7,"env":[{"env_func":"DRAG","paradict":{"alpha":-1.0542730309806223,"sigmas":3,"delta":-268000000.0}}],"amp":0.22095632331366138,"twidth":3.2e-08}
+		],
         "Q5Q3CR": [
             {
                 "dest": "Q5.qdrv",
