@@ -193,6 +193,6 @@ switchmap={
 		,'vna.read':None
 		,'vna.rdrv':None
 		}
-ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"qubic","default":0}
-		,"rdrvvat":{"deviceid":"attn1","hostname":"qubic2","default":8}
+ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.24","default":0}
+		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.130","default":8}
 		}
