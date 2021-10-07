@@ -1,32 +1,3 @@
-#chanmapqubit={'Q0.rdrv':0
-#		,'Q1.rdrv':0
-#		,'Q2.rdrv':0
-#		,'Q3.rdrv':0
-#		,'Q4.rdrv':0
-#		,'Q5.rdrv':0
-#		,'Q6.rdrv':0
-#		,'Q7.rdrv':0
-#		,'Q5.qdrv':2
-#		,'Q4.qdrv':2
-#		,'Q3.qdrv':2
-#		,'Q0.qdrv':2
-#		,'Q1.qdrv':3
-#		,'Q2.qdrv':1
-#		,'Q6.qdrv':2
-#		,'Q7.qdrv':2
-#		,'Q0.read':4
-#		,'Q1.read':5
-#		,'Q2.read':6
-#		,'Q3.read':4
-#		,'Q4.read':5
-#		,'Q5.read':6
-#		,'Q6.read':4
-#		,'Q7.read':5
-#		,'M0.mark':13
-#		,'M1.mark':14
-#		,'M2.mark':15
-#		,'M3.mark':16
-#		}
 lor=6.52e9
 loq=5.41e9
 lofreq={'Q0.rdrv':lor
@@ -62,54 +33,13 @@ lofreq={'Q0.rdrv':lor
 		,'vna.read':lor
 		,'vna.rdrv':lor
 		}
-#dacelementsdest=['Q0.rdrv'
-#		,'Q1.rdrv'
-#		,'Q2.rdrv'
-#		,'Q3.rdrv'
-#		,'Q4.rdrv'
-#		,'Q5.rdrv'
-#		,'Q6.rdrv'
-#		,'Q7.rdrv'
-#		,'Q0.qdrv'
-#		,'Q1.qdrv'
-#		,'Q2.qdrv'
-#		,'Q3.qdrv'
-#		,'Q4.qdrv'
-#		,'Q5.qdrv'
-#		,'Q6.qdrv'
-#		,'Q7.qdrv'
-#		]
-#lo0elementsdest=['Q0.read','Q3.read','Q6.read']
-#lo1elementsdest=['Q1.read','Q4.read','Q7.read']
-#lo2elementsdest=['Q2.read','Q5.read']
-#digielem0dest=['M0.mark']
-#digielem1dest=['M1.mark']
-#digielem2dest=['M2.mark']
-#digielem3dest=['M3.mark']
-#gatesall=['M0mark'
-#		,'Q0X90','Q0read'
-#		,'Q1X90','Q1read'
-#		,'Q2X90','Q2read'
-#		,'Q3X90','Q3read'
-#		,'Q4X90','Q4read'
-#		,'Q5X90','Q5read'
-#		,'Q6X90','Q6read'
-#		,'Q7X90','Q7read'
-#		,'Q0Q1CNOT'
-#		,'Q1Q2CNOT'
-#		,'Q3Q2CNOT'
-#		,'Q4Q3CNOT'
-#		,'Q5Q4CNOT'
-#		,'Q6Q5CNOT'
-#		,'Q6Q7CNOT'
-#		,'Q7Q0CNOT']
 elemdict={
- 		 'Q1.qdrv':0,'Q1.read':8,'Q1.rdrv':0
-		,'Q2.qdrv':1,'Q2.read':9,'Q2.rdrv':1
+ 		 'Q1.qdrv':2,'Q1.read':10,'Q1.rdrv':2
+		,'Q2.qdrv':2,'Q2.read':10,'Q2.rdrv':2
 		,'Q0.qdrv':2,'Q0.read':10,'Q0.rdrv':2
 		,'Q3.qdrv':2,'Q3.read':10,'Q3.rdrv':2
-		,'Q4.qdrv':2,'Q4.read':10,'Q4.rdrv':2
-		,'Q5.qdrv':2,'Q5.read':10,'Q5.rdrv':2
+		,'Q4.qdrv':0,'Q4.read':8,'Q4.rdrv':0
+		,'Q5.qdrv':1,'Q5.read':9,'Q5.rdrv':1
 		,'Q6.qdrv':2,'Q6.read':10,'Q6.rdrv':2
 		,'Q7.qdrv':2,'Q7.read':10,'Q7.rdrv':2
 		,'M0.mark':12}
