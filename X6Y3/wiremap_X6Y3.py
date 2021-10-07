@@ -114,62 +114,23 @@ elemdict={
 		,'Q7.qdrv':2,'Q7.read':10,'Q7.rdrv':2
 		,'M0.mark':12}
 destdict={'Q0.qdrv':2,'Q0.read':4,'Q0.rdrv':0
-		,'Q1.qdrv':3,'Q1.read':5,'Q1.rdrv':0
-		,'Q2.qdrv':1,'Q2.read':6,'Q2.rdrv':0
+		,'Q1.qdrv':2,'Q1.read':5,'Q1.rdrv':0
+		,'Q2.qdrv':2,'Q2.read':6,'Q2.rdrv':0
 		,'Q3.qdrv':2,'Q3.read':4,'Q3.rdrv':0
-		,'Q4.qdrv':2,'Q4.read':5,'Q4.rdrv':0
-		,'Q5.qdrv':2,'Q5.read':6,'Q5.rdrv':0
+		,'Q4.qdrv':1,'Q4.read':5,'Q4.rdrv':0
+		,'Q5.qdrv':3,'Q5.read':6,'Q5.rdrv':0
 		,'Q6.qdrv':2,'Q6.read':4,'Q6.rdrv':0
 		,'Q7.qdrv':2,'Q7.read':5,'Q7.rdrv':0
 		,'vna.read':5,'vna.rdrv':0
 		,'alignment.read':5,'alignment.rdrv':0
 		,'M0.mark':12}
-#patchlistall={'Q0.rdrv':8e-9,'Q0.read':8e-9,'Q0.qdrv':8e-9
-#		,'Q2.rdrv':0,'Q2.read':0,'Q2.qdrv':0
-#		,'Q1.rdrv':8e-9,'Q1.read':8e-9,'Q1.qdrv':8e-9
-#		,'Q3.rdrv':0,'Q3.read':0,'Q3.qdrv':0
-#		,'Q4.rdrv':8e-9,'Q4.read':8e-9,'Q4.qdrv':8e-9
-#		,'Q5.rdrv':0,'Q5.read':0,'Q5.qdrv':0
-#		,'Q6.rdrv':8e-9,'Q6.read':8e-9,'Q6.qdrv':8e-9
-#		,'Q7.rdrv':0,'Q7.read':0,'Q7.qdrv':0
-#		,'M0.mark':0}
-#patchmaxlistall={'Q0.rdrv':100,'Q0.read':100,'Q0.qdrv':100
-#		,'Q1.rdrv':100,'Q1.read':100,'Q1.qdrv':100
-#		,'Q2.rdrv':100,'Q2.read':100,'Q2.qdrv':100
-#		,'Q3.rdrv':100,'Q3.read':100,'Q3.qdrv':100
-#		,'Q4.rdrv':100,'Q4.read':100,'Q4.qdrv':100
-#		,'Q5.rdrv':100,'Q5.read':100,'Q5.qdrv':100
-#		,'Q6.rdrv':100,'Q6.read':100,'Q6.qdrv':100
-#		,'Q7.rdrv':100,'Q7.read':100,'Q7.qdrv':100
-#		,'M0.mark':100}
-#patchdict=patchmaxlistall
-#elemdict=elementlistall
-#destdict=destlistall
-#
-#gates=[
-#'Q2X90'
-#,'Q1X90'
-#,'Q2read'
-#,'Q1read'
-##,'Q5Q4CNOT'
-##,'Q5Q6CNOT'
-##,'Q1read'
-##,'Q4X180'
-##,'Q5X180'
-##,'Q6X180'
-##,'Q1X90'
-##,'Q2X90'
-##,'Q3X90'
-##,'Q0X90'
-##,'Q7X90'
-#]
 switchmap={
 		'Q0.qdrv':6
-		,'Q1.qdrv':None
-		,'Q2.qdrv':None
+		,'Q1.qdrv':5
+		,'Q2.qdrv':2
 		,'Q3.qdrv':3
-		,'Q4.qdrv':5
-		,'Q5.qdrv':2
+		,'Q4.qdrv':None
+		,'Q5.qdrv':None
 		,'Q6.qdrv':1
 		,'Q7.qdrv':4
 		,'Q0.rdrv':None

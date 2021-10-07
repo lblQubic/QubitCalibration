@@ -8,13 +8,13 @@
         "Q6": {
             "freq": 5679880925.124896,
             "readfreq": 6673938674.174854,
-            "readfreq0": 6.67364e9,
-            "freq_ef": 5.41272e9
+            "readfreq0": 6673640000.0,
+            "freq_ef": 5412720000.0
         },
         "Q5": {
             "freq": 5475440568.6161175,
             "readfreq": 6618477905.870264,
-            "freq_ef": 5.20428e9
+            "freq_ef": 5204280000.0
         },
         "Q4": {
             "freq": 5649176766.565519,
@@ -39,20 +39,20 @@
         "Q0": {
             "freq": 5540094543.879089,
             "readfreq0": 6358861582.660783,
-            "readfreqyes": 6.327e9,
-            "readfreq": 6.269e9,
+            "readfreqyes": 6327000000.0,
+            "readfreq": 6269000000.0,
             "freq_ef": 5275000000.0
         },
         "M1": {},
         "M0": {},
         "M3": {},
         "M2": {},
-		"vna":{
-			"readfreq": 0
-		},
-		"alignment":{
-			"readfreq":6.5e9
-		}
+        "vna": {
+            "readfreq": 0
+        },
+        "alignment": {
+            "readfreq": 6500000000.0
+        }
     },
     "Gates": {
         "M0mark": [
@@ -3557,7 +3557,7 @@
                 "twidth": 6.4e-08
             }
         ],
-        "CR(Q6Q5)": [
+        "Q6Q5CR": [
             {
                 "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
@@ -3573,68 +3573,30 @@
                     }
                 ],
                 "fcarrier": "Q5.freq",
-                "amp": 0.5029599752850743
-            }
-        ],
-        "CNOT(Q6Q5).Q5X": [
-            {
-                "dest": "Q5.qdrv",
-                "pcarrier": 0.0,
-                "fcarrier": "Q5.freq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "DRAG",
-                        "paradict": {
-                            "alpha": 2.9,
-                            "sigmas": 3,
-                            "delta": -268000000.0
-                        }
-                    }
-                ],
-                "amp": 0,
-                "twidth": 1.32e-07
+                "amp": 0.4925478487067226
             }
         ],
         "Q6Q5CNOT": [
             {
-                "dest": "Q6.qdrv",
-                "pcarrier": -0.7655158548654977,
-                "fcarrier": "Q6.freq",
-                "t0": 1.92e-07,
-                "env": [
-                    {
-                        "env_func": "DRAG",
-                        "paradict": {
-                            "alpha": 0.12,
-                            "sigmas": 3,
-                            "delta": -268000000.0
-                        }
-                    }
-                ],
-                "amp": 0,
-                "twidth": 4e-09
+                "pcarrier": -0.05334006087853462,
+                "fcarrier": "Q5.freq",
+                "t0": 0.0
+            },
+            "Q6Q5CR",
+            {
+                "pcarrier": 0.05334006087853462,
+                "fcarrier": "Q5.freq",
+                "t0": 1.92e-07
             },
             {
-                "dest": "Q6.qdrv",
-                "pcarrier": 9.410142657508253,
-                "t0": 0.0,
-                "twidth": 1.92e-07,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25,
-                            "ramp_length": 3.2e-08
-                        }
-                    }
-                ],
-                "fcarrier": "Q5.freq",
-                "amp": 0.5029599752850743
+                "pcarrier": -3.432621669568031,
+                "fcarrier": "Q6.freq",
+                "t0": 1.92e-07
             },
             {
                 "dest": "Q5.qdrv",
-                "pcarrier": -3.126957350328668,
+                "pcarrier": 0.0,
+                "pcarrier1": -3.126957350328668,
                 "fcarrier": "Q5.freq",
                 "t0": 1.92e-07,
                 "env": [
@@ -3647,8 +3609,8 @@
                         }
                     }
                 ],
-                "amp": 0.4595435027344326,
-                "twidth": 3.2e-08
+                "amp": 0.5173048276604063,
+                "twidth": 6.4e-08
             }
         ],
         "CR(Q6Q7)": [
