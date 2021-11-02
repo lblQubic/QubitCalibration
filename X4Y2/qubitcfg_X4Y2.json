@@ -38,7 +38,7 @@
             "readfreq": 6557910188.738102,
             "readfreq1": 6558345188.738102,
             "readfreq0": 6557861430.570354,
-            "freq_ef": 5707000000.0
+            "freq_ef": 5410000000.0
         },
         "Q0": {
             "freq": 5070698628.0,
@@ -398,7 +398,7 @@
             },
             {
                 "dest": "Q1.read",
-                "pcarrier": 5.419440206822563,
+                "pcarrier": 5.036201009436734,
                 "t0": 6e-07,
                 "fcarrier": "Q1.readfreq",
                 "env": [
@@ -526,7 +526,7 @@
             },
             {
                 "dest": "Q2.read",
-                "pcarrier": 4.31565114398153,
+                "pcarrier": 3.857097448352933,
                 "t0": 6e-07,
                 "fcarrier": "Q2.readfreq",
                 "env": [
@@ -654,7 +654,7 @@
             },
             {
                 "dest": "Q3.read",
-                "pcarrier": 4.5990383528412915,
+                "pcarrier": 4.164875083195694,
                 "t0": 6e-07,
                 "fcarrier": "Q3.readfreq",
                 "env": [
@@ -783,7 +783,7 @@
             },
             {
                 "dest": "Q5.read",
-                "pcarrier": 5.077878546407631,
+                "pcarrier": 4.763995592807081,
                 "t0": 6e-07,
                 "fcarrier": "Q5.readfreq",
                 "env": [
@@ -911,7 +911,7 @@
             },
             {
                 "dest": "Q4.read",
-                "pcarrier": 5.475051708207598,
+                "pcarrier": 5.036067484231122,
                 "t0": 6e-07,
                 "fcarrier": "Q4.readfreq",
                 "env": [
@@ -1040,7 +1040,7 @@
             },
             {
                 "dest": "Q6.read",
-                "pcarrier": 4.118053361908972,
+                "pcarrier": 3.6950848932067597,
                 "t0": 6e-07,
                 "fcarrier": "Q6.readfreq",
                 "env": [
@@ -1168,7 +1168,7 @@
             },
             {
                 "dest": "Q7.read",
-                "pcarrier": 3.1721758931169983,
+                "pcarrier": 2.8551456236723602,
                 "t0": 6e-07,
                 "fcarrier": "Q7.readfreq",
                 "env": [
@@ -1237,6 +1237,58 @@
                 ],
                 "amp": 0.09013713170871197,
                 "twidth": 3.2e-08
+            }
+        ],
+        "Q1Y-90": [
+            {
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0
+            },
+            "Q1X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": "3.200000e-08"
+            }
+        ],
+        "Q2Y-90": [
+            {
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": 0.0
+            },
+            "Q2X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q2.freq",
+                "t0": "3.200000e-08"
+            }
+        ],
+        "Q3Y-90": [
+            {
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q3.freq",
+                "t0": 0.0
+            },
+            "Q3X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q3.freq",
+                "t0": "3.200000e-08"
+            }
+        ],
+        "Q7Y-90": [
+            {
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q7.freq",
+                "t0": 0.0
+            },
+            "Q7X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q7.freq",
+                "t0": "3.200000e-08"
             }
         ],
         "Q5Y-90": [
