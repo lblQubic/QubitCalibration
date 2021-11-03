@@ -282,7 +282,7 @@
             },
             {
                 "dest": "Q0.read",
-                "pcarrier": 4.561971048689588,
+                "pcarrier": 4.572356080136524,
                 "t0": 6e-07,
                 "fcarrier": "Q0.readfreq",
                 "env": [
@@ -423,7 +423,7 @@
             },
             {
                 "dest": "Q1.read",
-                "pcarrier": 4.929704273281256,
+                "pcarrier": 0.3523661320270808,
                 "t0": 6e-07,
                 "fcarrier": "Q1.readfreq",
                 "env": [
@@ -563,7 +563,7 @@
             },
             {
                 "dest": "Q2.read",
-                "pcarrier": 5.063695354671677,
+                "pcarrier": 4.324228661683797,
                 "t0": 6e-07,
                 "fcarrier": "Q2.readfreq",
                 "env": [
@@ -703,7 +703,7 @@
             },
             {
                 "dest": "Q3.read",
-                "pcarrier": 5.576197891003908,
+                "pcarrier": 0.08653820428492409,
                 "t0": 6e-07,
                 "fcarrier": "Q3.readfreq",
                 "env": [
@@ -844,7 +844,7 @@
             },
             {
                 "dest": "Q5.read",
-                "pcarrier": 5.010323664564897,
+                "pcarrier": 5.020623999119701,
                 "t0": 6e-07,
                 "fcarrier": "Q5.readfreq",
                 "env": [
@@ -984,7 +984,7 @@
             },
             {
                 "dest": "Q4.read",
-                "pcarrier": 6.208891982385188,
+                "pcarrier": 5.073151151927506,
                 "t0": 6e-07,
                 "fcarrier": "Q4.readfreq",
                 "env": [
@@ -1126,7 +1126,7 @@
             },
             {
                 "dest": "Q6.read",
-                "pcarrier": 5.167639447230593,
+                "pcarrier": 4.770341766619765,
                 "t0": 6e-07,
                 "fcarrier": "Q6.readfreq",
                 "env": [
@@ -1266,7 +1266,7 @@
             },
             {
                 "dest": "Q7.read",
-                "pcarrier": 4.122305113332581,
+                "pcarrier": 4.134064100648357,
                 "t0": 6e-07,
                 "fcarrier": "Q7.readfreq",
                 "env": [
