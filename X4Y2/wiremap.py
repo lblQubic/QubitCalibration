@@ -1,5 +1,5 @@
 lor=6.52e9
-loq=5.41e9
+loq=5.11e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
 		,'Q2.rdrv':lor
@@ -44,11 +44,11 @@ elemdict={
 		,'Q7.qdrv':7,'Q7.read':10,'Q7.rdrv':7
 		,'M0.mark':12}
 destdict={'Q0.qdrv':2,'Q0.read':4,'Q0.rdrv':0
-		,'Q1.qdrv':1,'Q1.read':5,'Q1.rdrv':0
+		,'Q1.qdrv':2,'Q1.read':5,'Q1.rdrv':0
 		,'Q2.qdrv':2,'Q2.read':6,'Q2.rdrv':0
-		,'Q3.qdrv':2,'Q3.read':4,'Q3.rdrv':0
-		,'Q4.qdrv':2,'Q4.read':5,'Q4.rdrv':0
-		,'Q5.qdrv':3,'Q5.read':6,'Q5.rdrv':0
+		,'Q3.qdrv':3,'Q3.read':4,'Q3.rdrv':0
+		,'Q4.qdrv':1,'Q4.read':5,'Q4.rdrv':0
+		,'Q5.qdrv':2,'Q5.read':6,'Q5.rdrv':0
 		,'Q6.qdrv':2,'Q6.read':4,'Q6.rdrv':0
 		,'Q7.qdrv':2,'Q7.read':5,'Q7.rdrv':0
 		,'vna.read':5,'vna.rdrv':0
@@ -56,11 +56,11 @@ destdict={'Q0.qdrv':2,'Q0.read':4,'Q0.rdrv':0
 		,'M0.mark':12}
 switchmap={
 		'Q0.qdrv':6
-		,'Q1.qdrv':None
+		,'Q1.qdrv':5
 		,'Q2.qdrv':2
-		,'Q3.qdrv':3
-		,'Q5.qdrv':None
-		,'Q4.qdrv':5
+		,'Q3.qdrv':None
+		,'Q4.qdrv':None
+		,'Q5.qdrv':3
 		,'Q6.qdrv':1
 		,'Q7.qdrv':4
 		,'Q0.rdrv':None
