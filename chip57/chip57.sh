@@ -1,6 +1,5 @@
 export QUBIC_CHIP_NAME=chip57
 export QUBIC_FRIDGE_NAME=Snowball
 export QUBICIP=192.168.1.123
-export QUBICQUBITCFG=qubitcfg_chip57.json
-export QUBICWIREMAP=wiremap_chip57
-export QUBIC_DRIVER_LO=5.60e9
+export QUBICQUBITCFG=qubitcfg.json
+export QUBICWIREMAP=wiremap
