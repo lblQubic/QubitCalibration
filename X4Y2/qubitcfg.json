@@ -433,7 +433,7 @@
             },
             {
                 "dest": "Q1.read",
-                "pcarrier": 0.33562825440547517,
+                "pcarrier": 0.30073013514267605,
                 "t0": 6e-07,
                 "fcarrier": "Q1.readfreq",
                 "env": [
@@ -573,7 +573,7 @@
             },
             {
                 "dest": "Q2.read",
-                "pcarrier": 5.295837651345102,
+                "pcarrier": 5.24190070289934,
                 "t0": 6e-07,
                 "fcarrier": "Q2.readfreq",
                 "env": [
@@ -717,7 +717,7 @@
             },
             {
                 "dest": "Q3.read",
-                "pcarrier": 4.959514486592824,
+                "pcarrier": 4.701685226588706,
                 "t0": 6e-07,
                 "fcarrier": "Q3.readfreq",
                 "env": [
@@ -859,7 +859,7 @@
             },
             {
                 "dest": "Q5.read",
-                "pcarrier": 5.445181226461401,
+                "pcarrier": 5.376324100379925,
                 "t0": 6e-07,
                 "fcarrier": "Q5.readfreq",
                 "env": [
@@ -999,7 +999,7 @@
             },
             {
                 "dest": "Q4.read",
-                "pcarrier": 0.06487856279829884,
+                "pcarrier": 0.016027292361209255,
                 "t0": 6e-07,
                 "fcarrier": "Q4.readfreq",
                 "env": [
@@ -1281,7 +1281,7 @@
             },
             {
                 "dest": "Q7.read",
-                "pcarrier": 4.119899638938152,
+                "pcarrier": 4.563437597310825,
                 "t0": 6e-07,
                 "fcarrier": "Q7.readfreq",
                 "env": [
