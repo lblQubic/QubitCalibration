@@ -43,7 +43,7 @@ elemdict={
 		,'Q4.qdrv':0,'Q4.read':9,'Q4.rdrv':0
 		,'Q5.qdrv':1,'Q5.read':10,'Q5.rdrv':1
 		,'Q6.qdrv':6,'Q6.read':9,'Q6.rdrv':6
-		,'Q7.qdrv':7,'Q7.read':10,'Q7.rdrv':7
+		,'Q7.qdrv':7,'Q7.read':8,'Q7.rdrv':7
 		,'M0.mark':12}
 destdict={'Q0.qdrv':2,'Q0.read':4,'Q0.rdrv':0
 		,'Q1.qdrv':3,'Q1.read':5,'Q1.rdrv':0
