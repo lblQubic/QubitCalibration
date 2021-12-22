@@ -35,3 +35,8 @@ This package implemented several typical quantum characterization verification a
 An automatication script is developed to streamline the single qubit gate and two qubits gate parameter optimization and randomized benchmarking.
 
 1. https://arxiv.org/abs/2101.00071
+
+QubiC calibration
+This repo store the electronics hardware configuration and qubit calibration data.
+Each chip have its own directory and not much expected to be store in the top directory.
+
