@@ -27,14 +27,14 @@ chanmapqubit={'Q0.rdrv':0
 		,'M2.mark':15
 		,'M3.mark':16
 		}
-ttydev={"qdrvlo":{"deviceid":"a4spi_02","hostname":"192.168.1.24","default":{"chan":3,"freq":5.4e9}}
+ttydev={"qdrvlo":{"deviceid":"a4spi_02","hostname":"192.168.1.24","default":{"chan":3,"freq":5.5e9}}
         ,"readlo":{"deviceid":"a4spi_02","hostname":"192.168.1.24","default":{"chan":1,"freq":6.52e9}}
 		,"readvat":{"deviceid":"attn3","hostname":"192.168.1.24","default":0}
         #,"readlo":{"deviceid":"multifreqlo_v1","hostname":"192.168.1.24","default":{"chan":2,"freq":6.52e9}}
 		}
 lor=6.52e9
 #lor=6.52e9
-loq=5.4e9
+loq=5.5e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
 		,'Q2.rdrv':lor
