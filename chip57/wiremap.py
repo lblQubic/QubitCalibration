@@ -29,7 +29,7 @@
 #		}
 ttydev={"qdrvlo":{"deviceid":"a4spi_02","hostname":"192.168.1.24","default":{"chan":3,"freq":5.5e9}}
         ,"readlo":{"deviceid":"a4spi_02","hostname":"192.168.1.24","default":{"chan":1,"freq":6.52e9}}
-		,"readvat":{"deviceid":"attn3","hostname":"192.168.1.24","default":0}
+		,"readvat":{"deviceid":"attn3","hostname":"192.168.1.24","default":10}
         #,"readlo":{"deviceid":"multifreqlo_v1","hostname":"192.168.1.24","default":{"chan":2,"freq":6.52e9}}
 		}
 lor=6.52e9
