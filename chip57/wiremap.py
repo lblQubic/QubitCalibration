@@ -39,7 +39,7 @@ lofreq={'Q0.rdrv':lor
 		,'M2.mark':0
 		,'M3.mark':0
 		}
-elemdict={'Q0.qdrv':0,'Q0.read':10,'Q0.rdrv':0
+elemdict={'Q0.qdrv':1,'Q0.read':10,'Q0.rdrv':0
 		,'Q1.qdrv':0,'Q1.read':8,'Q1.rdrv':0
 		,'Q2.qdrv':0,'Q2.read':8,'Q2.rdrv':0
 		,'Q3.qdrv':0,'Q3.read':8,'Q3.rdrv':0
