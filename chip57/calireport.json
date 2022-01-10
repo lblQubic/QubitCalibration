@@ -12,7 +12,7 @@
 		,"separationerr":0.006
 		,"prep0read1":0.359
 		,"prep1read0":0.282
-		,"anhamonicity":263e6
+		,"anharmonicity":263e6
 	}
 	,"Q5":{
 		"t1":45.6e-6
@@ -27,7 +27,7 @@
 		,"separationerr":0.013
 		,"prep0read1":0.070
 		,"prep1read0":0.212
-		,"anhamonicity":267e6
+		,"anharmonicity":267e6
 	}
 	,"Q6":{
 		"t1":46.7e-6
@@ -42,6 +42,6 @@
 		,"separationerr":0.010
 		,"prep0read1":0.201
 		,"prep1read0":0.198
-		,"anhamonicity":264e6
+		,"anharmonicity":264e6
 	}
 }
