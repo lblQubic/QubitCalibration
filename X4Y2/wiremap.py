@@ -86,8 +86,8 @@ switchmap={
 		,'vna.read':None
 		,'vna.rdrv':None
 		}
-ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.24","default":0}
+ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.130","default":0}
 		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.130","default":8}
-        ,"qdrvlo":{"deviceid":"multifreqlo_v2every","hostname":"192.168.1.130","default":{"chan":3,"freq":5.185e9}}
-        ,"readlo":{"deviceid":"multifreqlo_v2every","hostname":"192.168.1.130","default":{"chan":2,"freq":6.52e9}}
+        ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.185e9}}
+        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":2,"freq":6.52e9}}
 		}
