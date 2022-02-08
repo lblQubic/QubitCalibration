@@ -198,7 +198,7 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q0rabixtalk": [
+        "Q0rabifixramp": [
             {
                 "dest": "Q0.qdrv",
                 "env": [
@@ -940,7 +940,7 @@
                 "twidth": 1.28e-07
             }
         ],
-        "Q5rabixtalk": [
+        "Q5rabifixramp": [
             {
                 "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
@@ -1214,7 +1214,7 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q6rabixtalk": [
+        "Q6rabifixramp": [
             {
                 "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
