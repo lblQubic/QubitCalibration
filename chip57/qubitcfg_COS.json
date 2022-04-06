@@ -198,6 +198,25 @@
                 "twidth": 3.2e-08
             }
         ],
+        "Q0rabifixramp": [
+            {
+                "dest": "Q0.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                            ,"ramp_length": 8e-09
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q0.freq",
+                "t0": 0.0,
+                "amp": 0.13021834395938206,
+                "twidth": 3.2e-08
+            }
+        ],
         "Q0rabi": [
             {
                 "dest": "Q0.qdrv",
@@ -921,6 +940,26 @@
                 "twidth": 1.28e-07
             }
         ],
+        "Q5rabifixramp": [
+            {
+                "dest": "Q5.qdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q5.freq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                            ,"ramp_length": 8e-09
+                        }
+                    }
+                ],
+                "amp": 0.09895070371467253,
+                "amp1": 1.0,
+                "twidth": 1.28e-07
+            }
+        ],
         "Q5read": [
             {
                 "dest": "Q5.rdrv",
@@ -1168,6 +1207,25 @@
                         "env_func": "cos_edge_square",
                         "paradict": {
                             "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.08449685543392066,
+                "twidth": 3.2e-08
+            }
+        ],
+        "Q6rabifixramp": [
+            {
+                "dest": "Q6.qdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                            ,"ramp_length": 8e-09
                         }
                     }
                 ],
