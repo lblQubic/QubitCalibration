@@ -4,7 +4,6 @@ ttydev={"qdrvlo":{"deviceid":"a4spi_02","hostname":"192.168.1.24","default":{"ch
         #,"readlo":{"deviceid":"multifreqlo_v1","hostname":"192.168.1.24","default":{"chan":2,"freq":6.52e9}}
 		}
 lor=6.52e9
-#lor=6.52e9
 loq=5.5e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
