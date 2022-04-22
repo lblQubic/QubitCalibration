@@ -174,7 +174,7 @@
                         }
                     }
                 ],
-                "amp": 0.23906308347225638,
+                "amp": 0.23415476617633513,
                 "twidth": 3.2e-08
             }
         ],
@@ -194,7 +194,7 @@
                         }
                     }
                 ],
-                "amp": 0.23906308347225638,
+                "amp": 0.23415476617633513,
                 "twidth": 3.2e-08
             }
         ],
@@ -205,8 +205,8 @@
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25
-                            ,"ramp_length": 8e-09
+                            "ramp_fraction": 0.25,
+                            "ramp_length": 8e-09
                         }
                     }
                 ],
@@ -897,7 +897,7 @@
                         }
                     }
                 ],
-                "amp": 0.12828551547162834,
+                "amp": 0.12871529225169046,
                 "twidth": 3.2e-08
             }
         ],
@@ -917,7 +917,7 @@
                         }
                     }
                 ],
-                "amp": 0.12828551547162834,
+                "amp": 0.12871529225169046,
                 "twidth": 1e-06
             }
         ],
@@ -950,8 +950,8 @@
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25
-                            ,"ramp_length": 8e-09
+                            "ramp_fraction": 0.25,
+                            "ramp_length": 8e-09
                         }
                     }
                 ],
@@ -1224,8 +1224,8 @@
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25
-                            ,"ramp_length": 8e-09
+                            "ramp_fraction": 0.25,
+                            "ramp_length": 8e-09
                         }
                     }
                 ],

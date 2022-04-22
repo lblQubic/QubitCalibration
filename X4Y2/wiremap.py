@@ -2,6 +2,7 @@ lor=6.52e9
 #loq=4.5e9
 #loq=5.7e9
 loq=5.185e9
+#loq=5.5e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
 		,'Q2.rdrv':lor
@@ -89,5 +90,6 @@ switchmap={
 ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.130","default":0}
 		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.130","default":8}
         ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.185e9}}
+        #,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.5e9}}
         ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":2,"freq":6.52e9}}
 		}
