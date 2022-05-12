@@ -1,4 +1,5 @@
-lor=6.52e9
+#lor=6.52e9
+lor=6.85e9
 #loq=4.5e9
 #loq=5.7e9
 loq=5.185e9
@@ -91,5 +92,6 @@ ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.130","default":
 		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.130","default":8}
         ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.185e9}}
         #,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.5e9}}
-        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":2,"freq":6.52e9}}
+#        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":6.52e9}}
+        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":6.85e9}}
 		}
