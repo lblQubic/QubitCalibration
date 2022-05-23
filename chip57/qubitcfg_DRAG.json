@@ -969,7 +969,7 @@
             },
             {
                 "dest": "Q5.read",
-                "pcarrier": 0.6181742942303283,
+                "pcarrier": 0.02353442737152811,
                 "t0": 6.92e-07,
                 "fcarrier": "Q5.readfreq",
                 "env": [
@@ -1234,7 +1234,7 @@
             },
             {
                 "dest": "Q6.read",
-                "pcarrier": 5.374808163393688,
+                "pcarrier": 4.96993113878208,
                 "t0": 6.92e-07,
                 "fcarrier": "Q6.readfreq",
                 "env": [
