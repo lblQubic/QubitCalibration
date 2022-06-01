@@ -16,8 +16,8 @@
         },
         "Q5": {
             "freq": 5495582992.467189,
-            "readfreq": 6617531000.0,
-            "readfreq2": 6618751000.0,
+            "readfreq3": 6617531000.0,
+            "readfreq": 6618751000.0,
             "freq_ef": 5226158362.943543,
             "MachielID": "Q5"
         },
@@ -283,11 +283,11 @@
                     }
                 ],
                 "amp": 0.15,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             },
             {
                 "dest": "Q0.read",
-                "pcarrier": 5.50138455840955,
+                "pcarrier": 5.468128340501687,
                 "t0": 6.92e-07,
                 "fcarrier": "Q0.readfreq",
                 "env": [
@@ -300,7 +300,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             }
         ],
         "Q1X90": [
@@ -410,11 +410,11 @@
                 "amp": 0.2,
                 "amp0": 0.58333,
                 "amp2": 0.9,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             },
             {
                 "dest": "Q1.read",
-                "pcarrier": 1.088077541734097,
+                "pcarrier": 1.0548310815722077,
                 "pcarrier1": "numpy.pi/2.0",
                 "t0": 6.92e-07,
                 "fcarrier": "Q1.readfreq",
@@ -428,7 +428,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             }
         ],
         "Q2X90": [
@@ -527,11 +527,11 @@
                     }
                 ],
                 "amp": 0.22,
-                "twidth": 2.8e-06
+                "twidth": 3.9e-06
             },
             {
                 "dest": "Q2.read",
-                "pcarrier": 5.122455996426946,
+                "pcarrier": 5.068531088627754,
                 "t0": 6.92e-07,
                 "fcarrier": "Q2.readfreq",
                 "env": [
@@ -544,7 +544,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 2.8e-06
+                "twidth": 3.9e-06
             }
         ],
         "Q3X90": [
@@ -913,11 +913,11 @@
                     }
                 ],
                 "amp": 0.15,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             },
             {
                 "dest": "Q6.read",
-                "pcarrier": 2.363993626096973,
+                "pcarrier": 2.331300913353992,
                 "t0": 6.92e-07,
                 "fcarrier": "Q6.readfreq",
                 "env": [
@@ -930,7 +930,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             }
         ],
         "Q4X90": [
@@ -1176,11 +1176,11 @@
                     }
                 ],
                 "amp": 0.13,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             },
             {
                 "dest": "Q7.read",
-                "pcarrier": 0.2559992702922113,
+                "pcarrier": 0.23553504183654717,
                 "t0": 6.92e-07,
                 "fcarrier": "Q7.readfreq",
                 "env": [
@@ -1193,7 +1193,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             }
         ],
         "Q5X90": [
@@ -1316,11 +1316,11 @@
                     }
                 ],
                 "amp": 0.15,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             },
             {
                 "dest": "Q5.read",
-                "pcarrier": 2.2854888197361376,
+                "pcarrier": 6.057869457061339,
                 "t0": 6.92e-07,
                 "fcarrier": "Q5.readfreq",
                 "env": [
@@ -1333,7 +1333,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 4e-06
+                "twidth": 3.9e-06
             }
         ],
         "Q0Q1CR": [
