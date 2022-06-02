@@ -1280,11 +1280,9 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "DRAG",
+                        "env_func": "cos_edge_square",
                         "paradict": {
-                            "alpha": 1.55,
-                            "sigmas": 3,
-                            "delta": -268000000.0
+                            "ramp_fraction": 0.25
                         }
                     }
                 ],
