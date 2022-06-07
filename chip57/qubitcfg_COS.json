@@ -1,58 +1,91 @@
 {
     "Qubits": {
         "Q7": {
-            "freq": 5872614760.862781,
-            "readfreq": 6732530000.884235,
-            "readfreq3": 6730926133.884235,
-            "freq_ef": 5609420000.0,
-            "MachielID": "Q3"
+            "freq1": 5535261901.292658,
+            "freq0": 5600000000.0,
+            "freq": 5500000000.0,
+            "readfreqno0": 6769850000.0,
+            "readfreq7": 6640000000.0,
+            "readfreq6": 6732291000.0,
+            "readfreq": 6618701000.0,
+            "readfreqno2": 6570000000.0,
+            "readfreqno1": 6320000000.0,
+            "freq_ef": 5500000000.0,
+            "freq_ef0": 5276300000.0
         },
         "Q6": {
-            "freq": 5704827138.852512,
-            "readfreq": 6674980364.537499,
-            "readfreq2": 6673320000.0,
-            "freq_ef": 5437817612.264998,
-            "MachielID": "Q4"
+            "freq": 5872613968.618469,
+            "readfreq": 6732436133.884235,
+            "readfreq0": 6730926133.884235,
+            "freq_ef": 5609420000.0
         },
         "Q5": {
-            "freq": 5495727148.177633,
-            "readfreq3": 6617531000.0,
-            "readfreq": 6618751000.0,
-            "freq_ef": 5226158362.943543,
-            "MachielID": "Q5"
+            "freq": 5704804430.587291,
+            "readfreq": 6674919364.537499,
+            "readfreq0": 6673339364.537499,
+            "freq_ef": 5437942000.0
         },
         "Q4": {
+            "freq2": 5499870146.022025,
+            "freq0": 5600000000.0,
             "freq": 5500000000.0,
+            "readfreq0": 6710675808.351044,
+            "readfreq4": 6617410000.0,
             "readfreq": 6555260000.0,
             "freq_ef": 5500000000.0,
-            "MachielID": "NA"
+            "freq_ef0": 5249380000.0
         },
         "Q3": {
+            "freq2": 5266498670.249643,
+            "freq0": 5600000000.0,
             "freq": 5500000000.0,
-            "readfreq": 6502295000.0,
+            "readfreqno": 6556320000.0,
+            "readfreq3": 6570170000.0,
+            "readfreq": 6502025000.0,
             "freq_ef": 5500000000.0,
-            "MachielID": "NA"
+            "freq_ef0": 5006000000.0
         },
         "Q2": {
-            "freq": 5407626592.697236,
-            "readfreq2": 6442916576.268638,
-            "readfreq": 6443000000.0,
-            "freq_ef": 5136917859.132232,
-            "MachielID": "NA"
+            "freq1": 5400000000.0,
+            "freq0": 5730613052.705558,
+            "freq2": 5710000000.0,
+            "freq": 5500000000.0,
+            "readfreq2": 6501780000.0,
+            "readfreq3": 6659092816.649211,
+            "readfreq": 6444356576.268638,
+            "freq_ef1": 4885580000.0,
+            "freq_ef": 5500000000.0,
+            "freq_ef0": 4933900000.0
         },
         "Q1": {
-            "freq": 5524819989.517851,
-            "readfreq": 6383575271.909999,
-            "readfreq2": 6385425271.909999,
-            "freq_ef": 5255930000.0,
-            "MachielID": "Q1"
+            "freq3": 5448416407.864998,
+            "freq4": 5400000000.0,
+            "freq0": 5298412225.7820835,
+            "freq": 5500000000.0,
+            "freq2": 5784100000.0,
+            "freq1": 5298663453.132617,
+            "readfreq0": 6327600000.0,
+            "readfreq": 6385905271.909999,
+            "readfreq2": 6443850000.0,
+            "readfreq3": 6502025000.0,
+            "readfreq4": 6552930000.0,
+            "readfreq5": 6618330000.0,
+            "readfreq6": 6674580000.0,
+            "readfreq7": 6732291000.0,
+            "readfreq8": 5755000000.0,
+            "readfreq9": 6135000000.0,
+            "readfreqa": 6353000000.0,
+            "readfreqb": 5600000000.0,
+            "freq_ef": 5500000000.0,
+            "freq_ef0": 5036600000.0
         },
         "Q0": {
+			
             "freq": 5734838458.429079,
-            "readfreq3": 6324390526.627364,
-            "readfreq": 6327550003.026269,
-            "freq_ef": 5461730000.0,
-            "MachielID": "Q2"
+            "readfreq0": 6326080526.627364,
+            "readfreq": 6327570526.627364,
+            "readfreq1": 6324020526.627364,
+            "freq_ef": 5468310000.0
         },
         "M1": {},
         "M0": {},
@@ -101,7 +134,7 @@
                         }
                     }
                 ],
-                "amp": 0.11691384931541193,
+                "amp": 0.12943834000117135,
                 "twidth": 3.2e-08
             }
         ],
@@ -113,13 +146,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.5,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.2563638249479252,
+                "amp": 0.23415476617633513,
                 "twidth": 3.2e-08
             }
         ],
@@ -131,13 +166,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.5,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.2563638249479252,
+                "amp": 0.23415476617633513,
                 "twidth": 3.2e-08
             }
         ],
@@ -174,9 +211,7 @@
                 "pcarrier": 0.0,
                 "fcarrier": "Q0.freq",
                 "t0": 0.0,
-                "amp": 0.11691384931541193,
-                "amp1": 0.5185733285059855,
-                "amp0": 0.0,
+                "amp": 0.12943834000117135,
                 "twidth": 3.2e-08
             }
         ],
@@ -267,6 +302,15 @@
         "Q0read": [
             {
                 "dest": "Q0.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
                 "pcarrier": 0.0,
                 "fcarrier": "Q0.readfreq",
                 "t0": 0.0,
@@ -278,12 +322,12 @@
                         }
                     }
                 ],
-                "amp": 0.15,
-                "twidth": 3.9e-06
+                "amp": 0.11,
+                "twidth": 4e-06
             },
             {
                 "dest": "Q0.read",
-                "pcarrier": 5.510323125306062,
+                "pcarrier": 2.87470209302721,
                 "t0": 6.92e-07,
                 "fcarrier": "Q0.readfreq",
                 "env": [
@@ -296,7 +340,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 3.9e-06
+                "twidth": 4e-06
             }
         ],
         "Q1X90": [
@@ -307,13 +351,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.39935272412504513,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.1006901989594117,
+                "amp": 0.18211028445304,
                 "twidth": 3.2e-08
             }
         ],
@@ -325,13 +371,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.16204778867113237,
+                "amp": 0.41,
                 "twidth": 3.2e-08
             }
         ],
@@ -343,13 +391,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.16204778867113237,
+                "amp": 0.41,
                 "twidth": 3.2e-08
             }
         ],
@@ -361,13 +411,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.32,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.1006901989594117,
+                "amp": 1.0,
                 "amp1": 0.0,
                 "twidth": 3.2e-08
             }
@@ -395,14 +447,14 @@
                         }
                     }
                 ],
-                "amp": 0.2,
+                "amp": 0.1,
                 "amp0": 0.58333,
                 "amp2": 0.9,
-                "twidth": 3.9e-06
+                "twidth": 4e-06
             },
             {
                 "dest": "Q1.read",
-                "pcarrier": 1.0974801713153433,
+                "pcarrier": 1.9128664641554638,
                 "pcarrier1": "numpy.pi/2.0",
                 "t0": 6.92e-07,
                 "fcarrier": "Q1.readfreq",
@@ -416,7 +468,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 3.9e-06
+                "twidth": 4e-06
             }
         ],
         "Q2X90": [
@@ -427,14 +479,16 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
                 "amp1": 0.4254933093319795,
-                "amp": 0.0889385573872974,
+                "amp": 0.20519613212029647,
                 "twidth": 3.2e-08
             }
         ],
@@ -446,14 +500,16 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.5,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.5164224300062883,
-                "twidth": 3.2e-08
+                "amp": 0.95,
+                "twidth": 1e-06
             }
         ],
         "Q2rabi_ef": [
@@ -464,13 +520,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.5,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.5164224300062883,
+                "amp": 0.95,
                 "twidth": 3.2e-08
             }
         ],
@@ -482,19 +540,30 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.64,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.0889385573872974,
+                "amp": 1.0,
                 "twidth": 3.2e-08
             }
         ],
         "Q2read": [
             {
                 "dest": "Q2.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
                 "pcarrier": 0.0,
                 "fcarrier": "Q2.readfreq",
                 "t0": 0.0,
@@ -506,12 +575,12 @@
                         }
                     }
                 ],
-                "amp": 0.22,
-                "twidth": 3.9e-06
+                "amp": 0.1,
+                "twidth": 4e-06
             },
             {
                 "dest": "Q2.read",
-                "pcarrier": 5.102852117459207,
+                "pcarrier": 0.354347,
                 "t0": 6.92e-07,
                 "fcarrier": "Q2.readfreq",
                 "env": [
@@ -524,7 +593,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 3.9e-06
+                "twidth": 4e-06
             }
         ],
         "Q3X90": [
@@ -535,9 +604,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -610,6 +681,19 @@
                 "t0": 3.2e-08
             }
         ],
+        "Q5Y-90": [
+            {
+                "pcarrier": "-numpy.pi/2.0",
+                "fcarrier": "Q5.freq",
+                "t0": 0.0
+            },
+            "Q5X90",
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q5.freq",
+                "t0": 3.2e-08
+            }
+        ],
         "Q6Y-90": [
             {
                 "pcarrier": "-numpy.pi/2.0",
@@ -636,19 +720,6 @@
                 "t0": 3.2e-08
             }
         ],
-        "Q5Y-90": [
-            {
-                "pcarrier": "-numpy.pi/2.0",
-                "fcarrier": "Q5.freq",
-                "t0": 0.0
-            },
-            "Q5X90",
-            {
-                "pcarrier": "numpy.pi/2.0",
-                "fcarrier": "Q5.freq",
-                "t0": 3.2e-08
-            }
-        ],
         "Q3X90_ef": [
             {
                 "dest": "Q3.qdrv",
@@ -657,9 +728,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.1,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -683,9 +756,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.1,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -696,7 +771,7 @@
         "Q3rabi": [
             {
                 "dest": "Q3.qdrv",
-                "env": [
+                "env1": [
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
@@ -707,6 +782,16 @@
                 "pcarrier": 0.0,
                 "fcarrier": "Q3.freq",
                 "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": -1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
                 "amp": 1.0,
                 "twidth": 3.2e-08
             }
@@ -755,11 +840,11 @@
                 "twidth": 4e-06
             }
         ],
-        "Q6X90": [
+        "Q5X90": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "t0": 0.0,
                 "env": [
                     {
@@ -770,51 +855,55 @@
                     }
                 ],
                 "amp0": 0.1628,
-                "amp": 0.09107025290563663,
+                "amp": 0.09965327632060939,
                 "twidth": 3.2e-08
             }
         ],
-        "Q6X90_ef": [
+        "Q5X90_ef": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
-                "fcarrier": "Q6.freq_ef",
+                "fcarrier": "Q5.freq_ef",
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.14040242850460652,
+                "amp": 0.12871529225169046,
                 "twidth": 3.2e-08
             }
         ],
-        "Q6rabi_ef": [
+        "Q5rabi_ef": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
-                "fcarrier": "Q6.freq_ef",
+                "fcarrier": "Q5.freq_ef",
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.14040242850460652,
+                "amp": 0.12871529225169046,
                 "twidth": 1e-06
             }
         ],
-        "Q6rabi": [
+        "Q5rabi": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "t0": 0.0,
                 "env": [
                     {
@@ -824,16 +913,16 @@
                         }
                     }
                 ],
-                "amp": 0.09107025290563663,
+                "amp": 0.09965327632060939,
                 "amp1": 1.0,
                 "twidth": 1.28e-07
             }
         ],
-        "Q6rabifixramp": [
+        "Q5rabifixramp": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "t0": 0.0,
                 "env": [
                     {
@@ -849,9 +938,9 @@
                 "twidth": 1.28e-07
             }
         ],
-        "Q6read": [
+        "Q5read": [
             {
-                "dest": "Q6.rdrv",
+                "dest": "Q5.rdrv",
                 "env1": [
                     {
                         "env_func": "square",
@@ -862,7 +951,7 @@
                     }
                 ],
                 "pcarrier": 0.0,
-                "fcarrier": "Q6.readfreq",
+                "fcarrier": "Q5.readfreq",
                 "t0": 0.0,
                 "env": [
                     {
@@ -872,14 +961,14 @@
                         }
                     }
                 ],
-                "amp": 0.15,
-                "twidth": 3.9e-06
+                "amp": 0.13,
+                "twidth": 4e-06
             },
             {
-                "dest": "Q6.read",
-                "pcarrier": 5.480709608628261,
+                "dest": "Q5.read",
+                "pcarrier": 3.641109421748231,
                 "t0": 6.92e-07,
-                "fcarrier": "Q6.readfreq",
+                "fcarrier": "Q5.readfreq",
                 "env": [
                     {
                         "env_func": "square",
@@ -890,7 +979,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 3.9e-06
+                "twidth": 4e-06
             }
         ],
         "Q4X90": [
@@ -909,14 +998,16 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.0518163012013537,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
                 "amp0": 0.1298618756905153,
-                "amp": 0.024464494257071038,
+                "amp": 0.29193483172574053,
                 "twidth": 3.2e-08
             }
         ],
@@ -928,9 +1019,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -946,9 +1039,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.4,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -964,13 +1059,15 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.69,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.024464494257071038,
+                "amp": 0.12814756473457029,
                 "twidth": 3.2e-08
             }
         ],
@@ -1002,9 +1099,139 @@
             },
             {
                 "dest": "Q4.read",
-                "pcarrier": 0.5356266550399056,
+                "pcarrier": 2.4044574915574213,
                 "t0": 6.92e-07,
                 "fcarrier": "Q4.readfreq",
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
+                "amp": 1.0,
+                "twidth": 4e-06
+            }
+        ],
+        "Q6X90": [
+            {
+                "dest": "Q6.qdrv",
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "amp": 0.08993310203404639,
+                "twidth": 3.2e-08
+            }
+        ],
+        "Q6X90_ef": [
+            {
+                "dest": "Q6.qdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq_ef",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 0.1,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.10416837108918704,
+                "twidth": 3.2e-08
+            }
+        ],
+        "Q6rabi_ef": [
+            {
+                "dest": "Q6.qdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq_ef",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 0.1,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.10416837108918704,
+                "twidth": 3.2e-08
+            }
+        ],
+        "Q6rabi": [
+            {
+                "dest": "Q6.qdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.08993310203404639,
+                "twidth": 3.2e-08
+            }
+        ],
+        "Q6rabifixramp": [
+            {
+                "dest": "Q6.qdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.freq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25,
+                            "ramp_length": 8e-09
+                        }
+                    }
+                ],
+                "amp": 0.08449685543392066,
+                "twidth": 3.2e-08
+            }
+        ],
+        "Q6read": [
+            {
+                "dest": "Q6.rdrv",
+                "pcarrier": 0.0,
+                "fcarrier": "Q6.readfreq",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ],
+                "amp": 0.23,
+                "twidth": 4e-06
+            },
+            {
+                "dest": "Q6.read",
+                "pcarrier": 2.867935713306103,
+                "t0": 6.92e-07,
+                "fcarrier": "Q6.readfreq",
                 "env": [
                     {
                         "env_func": "square",
@@ -1021,7 +1248,7 @@
         "Q7X90": [
             {
                 "dest": "Q7.qdrv",
-                "env": [
+                "env1": [
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
@@ -1032,7 +1259,17 @@
                 "pcarrier": 0.0,
                 "fcarrier": "Q7.freq",
                 "t0": 0.0,
-                "amp": 0.07684421366584243,
+                "env": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 1.1518230802430733,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.12645278371430305,
                 "twidth": 3.2e-08
             }
         ],
@@ -1044,23 +1281,22 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.6,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.10056168679018691,
-                "twidth": 3.2e-08
+                "amp": 0.116177808,
+                "twidth": 1e-06
             }
         ],
         "Q7rabi_ef": [
             {
                 "dest": "Q7.qdrv",
-                "pcarrier": 0.0,
-                "fcarrier": "Q7.freq_ef",
-                "t0": 0.0,
-                "env": [
+                "env1": [
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
@@ -1068,8 +1304,21 @@
                         }
                     }
                 ],
-                "amp": 0.10056168679018691,
-                "twidth": 3.2e-08
+                "pcarrier": 0.0,
+                "fcarrier": "Q7.freq_ef",
+                "t0": 0.0,
+                "env": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 2.6,
+                            "sigmas": 3,
+                            "delta": -268000000.0
+                        }
+                    }
+                ],
+                "amp": 0.116177808,
+                "twidth": 1e-06
             }
         ],
         "Q7rabi": [
@@ -1080,38 +1329,30 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.55,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.07684421366584243,
-                "twidth": 3.2e-08
-            }
-        ],
-        "Q7rabifixramp": [
-            {
-                "dest": "Q7.qdrv",
-                "pcarrier": 0.0,
-                "fcarrier": "Q7.freq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25,
-                            "ramp_length": 8e-09
-                        }
-                    }
-                ],
-                "amp": 0.08449685543392066,
+                "amp": 0.12612670896804115,
                 "twidth": 3.2e-08
             }
         ],
         "Q7read": [
             {
                 "dest": "Q7.rdrv",
+                "env1": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ],
                 "pcarrier": 0.0,
                 "fcarrier": "Q7.readfreq",
                 "t0": 0.0,
@@ -1123,12 +1364,12 @@
                         }
                     }
                 ],
-                "amp": 0.13,
-                "twidth": 3.9e-06
+                "amp": 0.1,
+                "twidth": 4e-06
             },
             {
                 "dest": "Q7.read",
-                "pcarrier": 4.813853992090924,
+                "pcarrier": 1.421583631890673,
                 "t0": 6.92e-07,
                 "fcarrier": "Q7.readfreq",
                 "env": [
@@ -1141,139 +1382,7 @@
                     }
                 ],
                 "amp": 1.0,
-                "twidth": 3.9e-06
-            }
-        ],
-        "Q5X90": [
-            {
-                "dest": "Q5.qdrv",
-                "env1": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "pcarrier": 0.0,
-                "fcarrier": "Q5.freq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "amp": 0.07444071240494106,
-                "twidth": 3.2e-08
-            }
-        ],
-        "Q5X90_ef": [
-            {
-                "dest": "Q5.qdrv",
-                "pcarrier": 0.0,
-                "fcarrier": "Q5.freq_ef",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "amp": 0.1775650778795228,
-                "twidth": 3.2e-08
-            }
-        ],
-        "Q5rabi_ef": [
-            {
-                "dest": "Q5.qdrv",
-                "env1": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "pcarrier": 0.0,
-                "fcarrier": "Q5.freq_ef",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "amp": 0.1775650778795228,
-                "twidth": 1e-06
-            }
-        ],
-        "Q5rabi": [
-            {
-                "dest": "Q5.qdrv",
-                "pcarrier": 0.0,
-                "fcarrier": "Q5.freq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "amp": 0.07444071240494106,
-                "twidth": 3.2e-08
-            }
-        ],
-        "Q5read": [
-            {
-                "dest": "Q5.rdrv",
-                "env1": [
-                    {
-                        "env_func": "square",
-                        "paradict": {
-                            "phase": 0.0,
-                            "amplitude": 1.0
-                        }
-                    }
-                ],
-                "pcarrier": 0.0,
-                "fcarrier": "Q5.readfreq",
-                "t0": 0.0,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "amp": 0.15,
-                "twidth": 3.9e-06
-            },
-            {
-                "dest": "Q5.read",
-                "pcarrier": 6.087314330518032,
-                "t0": 6.92e-07,
-                "fcarrier": "Q5.readfreq",
-                "env": [
-                    {
-                        "env_func": "square",
-                        "paradict": {
-                            "phase": 0.0,
-                            "amplitude": 1.0
-                        }
-                    }
-                ],
-                "amp": 1.0,
-                "twidth": 3.9e-06
+                "twidth": 4e-06
             }
         ],
         "Q0Q1CR": [
@@ -1319,9 +1428,11 @@
                 "t0": 2.88e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.39935272412504513,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1377,9 +1488,11 @@
                 "t0": 2.56e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.64,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1431,9 +1544,11 @@
                 "t0": 2.56e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.64,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1459,9 +1574,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1475,9 +1592,11 @@
                 "t0": 0.0,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1501,9 +1620,11 @@
                 "t0": 3.2e-08,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1517,9 +1638,11 @@
                 "t0": 3.2e-08,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1533,9 +1656,11 @@
                 "t0": 6.4e-08,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1549,9 +1674,11 @@
                 "t0": 6.4e-08,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1597,9 +1724,11 @@
                 "t0": 3.52e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.64,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1623,9 +1752,11 @@
                 "t0": 3.84e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1639,9 +1770,11 @@
                 "t0": 3.84e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1665,9 +1798,11 @@
                 "t0": 4.16e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1681,9 +1816,11 @@
                 "t0": 4.16e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1697,9 +1834,11 @@
                 "t0": 4.48e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.6154459318445684,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1713,9 +1852,11 @@
                 "t0": 4.48e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -1.0542730309806223,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1723,9 +1864,9 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q6Q3CR": [
+        "Q5Q3CR": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
                 "twidth": 2.48e-07,
@@ -1742,17 +1883,19 @@
                 "amp": 0.47109252693431913
             }
         ],
-        "Q6Q3CNOT": [
+        "Q5Q3CNOT": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": -4.473588175925678,
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "t0": 2.48e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.0,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1760,7 +1903,7 @@
                 "twidth": 4e-09
             },
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 8.67569637554198,
                 "t0": 0.0,
                 "twidth": 2.48e-07,
@@ -1783,9 +1926,11 @@
                 "t0": 2.48e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.1,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1793,7 +1938,7 @@
                 "twidth": 6.4e-08
             }
         ],
-        "Q4Q6CR": [
+        "Q4Q5CR": [
             {
                 "dest": "Q4.qdrv",
                 "pcarrier": 0.0,
@@ -1808,11 +1953,11 @@
                         }
                     }
                 ],
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "amp": 0.38181367743569045
             }
         ],
-        "Q4Q6CNOT": [
+        "Q4Q5CNOT": [
             {
                 "dest": "Q4.qdrv",
                 "pcarrier": -2.1682519310360795,
@@ -1820,9 +1965,11 @@
                 "t0": 1.76e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": -0.14,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1843,19 +1990,21 @@
                         }
                     }
                 ],
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "amp": 0.38181367743569045
             },
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": -0.6426623616042966,
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "t0": 1.76e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.77,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1863,9 +2012,9 @@
                 "twidth": 6.4e-08
             }
         ],
-        "Q7Q4CR": [
+        "Q6Q4CR": [
             {
-                "dest": "Q7.qdrv",
+                "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
                 "twidth": 2.56e-07,
@@ -1882,17 +2031,19 @@
                 "amp": 0.25885676762782484
             }
         ],
-        "Q7Q4CNOT": [
+        "Q6Q4CNOT": [
             {
-                "dest": "Q7.qdrv",
+                "dest": "Q6.qdrv",
                 "pcarrier": -1.763042275980836,
-                "fcarrier": "Q7.freq",
+                "fcarrier": "Q6.freq",
                 "t0": 2.56e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.5,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1900,7 +2051,7 @@
                 "twidth": 4e-09
             },
             {
-                "dest": "Q7.qdrv",
+                "dest": "Q6.qdrv",
                 "pcarrier": 10.851787351763816,
                 "t0": 0.0,
                 "twidth": 2.56e-07,
@@ -1923,9 +2074,11 @@
                 "t0": 2.56e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.3,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1933,9 +2086,9 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q7Q5CR": [
+        "Q6Q7CR": [
             {
-                "dest": "Q7.qdrv",
+                "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
                 "twidth": 2e-07,
@@ -1948,37 +2101,39 @@
                         }
                     }
                 ],
-                "fcarrier": "Q5.freq",
+                "fcarrier": "Q7.freq",
                 "amp": 0.5
             }
         ],
-        "Q7Q5CNOT": [
+        "Q6Q7CNOT": [
             {
                 "pcarrier": 0.0,
                 "t0": 0.0,
-                "fcarrier": "Q5.freq"
+                "fcarrier": "Q7.freq"
             },
-            "Q7Q5CR",
+            "Q6Q7CR",
             {
                 "pcarrier": 0.0,
                 "t0": 2.8e-07,
-                "fcarrier": "Q5.freq"
+                "fcarrier": "Q7.freq"
             },
             {
                 "pcarrier": 0.0,
-                "fcarrier": "Q7.freq",
+                "fcarrier": "Q6.freq",
                 "t0": 2.8e-07
             },
             {
-                "dest": "Q5.qdrv",
+                "dest": "Q7.qdrv",
                 "pcarrier": 0,
-                "fcarrier": "Q5.freq",
+                "fcarrier": "Q7.freq",
                 "t0": 2.88e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.39935272412504513,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -1986,9 +2141,9 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q5Q0CR": [
+        "Q7Q0CR": [
             {
-                "dest": "Q5.qdrv",
+                "dest": "Q7.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
                 "twidth": 2.56e-07,
@@ -2005,17 +2160,19 @@
                 "amp": 0.3857584071616571
             }
         ],
-        "Q5Q0CNOT": [
+        "Q7Q0CNOT": [
             {
-                "dest": "Q5.qdrv",
+                "dest": "Q7.qdrv",
                 "pcarrier": -0.7827389098198076,
-                "fcarrier": "Q5.freq",
+                "fcarrier": "Q7.freq",
                 "t0": 2.56e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 2.6,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -2023,7 +2180,7 @@
                 "twidth": 4e-09
             },
             {
-                "dest": "Q5.qdrv",
+                "dest": "Q7.qdrv",
                 "pcarrier": 9.5031598711694,
                 "t0": 0.0,
                 "twidth": 2.56e-07,
@@ -2046,9 +2203,11 @@
                 "t0": 2.56e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 1.5,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -2099,9 +2258,11 @@
                 "t0": 2.4e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.39935272412504513,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -2109,9 +2270,9 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q6Q4CR": [
+        "Q5Q4CR": [
             {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
                 "twidth": 2e-07,
@@ -2128,13 +2289,13 @@
                 "amp": 0.4951847734323436
             }
         ],
-        "Q6Q4CNOT": [
+        "Q5Q4CNOT": [
             {
                 "pcarrier": 1.915502851073857,
                 "t0": 0.0,
                 "fcarrier": "Q4.freq"
             },
-            "Q6Q4CR",
+            "Q5Q4CR",
             {
                 "pcarrier": -1.915502851073857,
                 "t0": 1.92e-07,
@@ -2142,7 +2303,7 @@
             },
             {
                 "pcarrier": -0.7701946822229836,
-                "fcarrier": "Q6.freq",
+                "fcarrier": "Q5.freq",
                 "t0": 1.92e-07
             },
             {
@@ -2152,9 +2313,11 @@
                 "t0": 2e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.39935272412504513,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
@@ -2162,7 +2325,7 @@
                 "twidth": 3.2e-08
             }
         ],
-        "Q6Q0CR": [
+        "Q6Q5CR": [
             {
                 "dest": "Q6.qdrv",
                 "pcarrier": 0.0,
@@ -2177,113 +2340,43 @@
                         }
                     }
                 ],
-                "fcarrier": "Q0.freq",
+                "fcarrier": "Q5.freq",
                 "amp": 0.5
             }
         ],
-        "Q7Q0CR": [
+        "Q6Q5CNOT": [
             {
-                "dest": "Q7.qdrv",
                 "pcarrier": 0.0,
                 "t0": 0.0,
-                "twidth": 4e-07,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25,
-                            "ramp_length": 3.2e-08
-                        }
-                    }
-                ],
-                "fcarrier": "Q0.freq",
-                "amp": 0.13188867512956132
-            }
-        ],
-        "Q7Q0CNOT": [
-            {
-                "pcarrier": -3.267726815942075,
-                "t0": 0.0,
-                "fcarrier": "Q0.freq"
+                "fcarrier": "Q5.freq"
             },
-            "Q7Q0CR",
+            "Q6Q5CR",
             {
-                "pcarrier": 3.267726815942075,
-                "t0": 3.9199999999999996e-07,
-                "fcarrier": "Q0.freq"
-            },
-            {
-                "pcarrier": 6.439184016672089,
-                "fcarrier": "Q7.freq",
-                "t0": 3.9199999999999996e-07
-            },
-            {
-                "dest": "Q0.qdrv",
-                "pcarrier": 0,
-                "fcarrier": "Q0.freq",
-                "t0": 4e-07,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
-                "amp": 0.4822892099379744,
-                "twidth": 3.2e-08
-            }
-        ],
-        "Q7Q6CR": [
-            {
-                "dest": "Q7.qdrv",
                 "pcarrier": 0.0,
-                "t0": 0.0,
-                "twidth": 4e-07,
-                "env": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25,
-                            "ramp_length": 3.2e-08
-                        }
-                    }
-                ],
+                "t0": 2.8e-07,
+                "fcarrier": "Q5.freq"
+            },
+            {
+                "pcarrier": 0.0,
                 "fcarrier": "Q6.freq",
-                "amp": 0.07764044208864074
-            }
-        ],
-        "Q7Q6CNOT": [
-            {
-                "pcarrier": -1.290045502757607,
-                "t0": 0.0,
-                "fcarrier": "Q6.freq"
-            },
-            "Q7Q6CR",
-            {
-                "pcarrier": 1.290045502757607,
-                "t0": 3.9199999999999996e-07,
-                "fcarrier": "Q6.freq"
+                "t0": 2.8e-07
             },
             {
-                "pcarrier": -2.1442184762081675,
-                "fcarrier": "Q7.freq",
-                "t0": 3.9199999999999996e-07
-            },
-            {
-                "dest": "Q6.qdrv",
+                "dest": "Q5.qdrv",
                 "pcarrier": 0,
-                "fcarrier": "Q6.freq",
-                "t0": 4e-07,
+                "fcarrier": "Q5.freq",
+                "t0": 2.88e-07,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "DRAG",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "alpha": 0.39935272412504513,
+                            "sigmas": 3,
+                            "delta": -268000000.0
                         }
                     }
                 ],
-                "amp": 0.20766101364541492,
+                "amp": 0.0,
                 "twidth": 3.2e-08
             }
         ]
