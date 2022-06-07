@@ -46,7 +46,7 @@ elemdict={'Q0.qdrv':1,'Q0.read':8,'Q0.rdrv':0
 		,'Q2.qdrv':0,'Q2.read':8,'Q2.rdrv':0
 		,'Q3.qdrv':0,'Q3.read':8,'Q3.rdrv':0
 		,'Q4.qdrv':0,'Q4.read':8,'Q4.rdrv':0
-		,'Q5.qdrv':0,'Q5.read':8,'Q5.rdrv':0
+		,'Q5.qdrv':0,'Q5.read':10,'Q5.rdrv':0
 		,'Q6.qdrv':5,'Q6.read':9,'Q6.rdrv':2
 		,'Q7.qdrv':6,'Q7.read':10,'Q7.rdrv':3
 		,'M0.mark':12}
