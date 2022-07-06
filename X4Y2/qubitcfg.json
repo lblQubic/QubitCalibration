@@ -90,7 +90,6 @@
                 "pcarrier": 0.0,
                 "fcarrier": "alignment.readfreq",
                 "t0": 0.0,
-                "amp1": 1.0,
                 "amp": 0.13666741317835013,
                 "twidth": 2e-06
             },
@@ -190,14 +189,6 @@
         "Q0rabi_ef": [
             {
                 "dest": "Q0.qdrv",
-                "env1": [
-                    {
-                        "env_func": "cos_edge_square",
-                        "paradict": {
-                            "ramp_fraction": 0.25
-                        }
-                    }
-                ],
                 "pcarrier": 0.0,
                 "fcarrier": "Q0.freq_ef",
                 "t0": 0.0,
@@ -286,7 +277,6 @@
                         }
                     }
                 ],
-                "amp0": 0.7576565723515999,
                 "amp": 0.22070575524410224,
                 "twidth": 3.2e-08
             }
@@ -462,7 +452,6 @@
                         }
                     }
                 ],
-                "amp0": 0.5454768686355554,
                 "amp": 0.49827197821726793,
                 "twidth": 1e-06
             }
@@ -684,7 +673,6 @@
                     }
                 ],
                 "amp": 0.29182446725362754,
-                "amp0": 0.2661786621849987,
                 "twidth": 1e-06
             }
         ],
@@ -1048,7 +1036,6 @@
                     }
                 ],
                 "amp": 0.93,
-                "amp0": 0.19773713555048195,
                 "twidth": 1e-06
             },
             {
@@ -1094,7 +1081,7 @@
                 "t0": 0.0,
                 "fcarrier": "Q4.freq"
             },
-            "Q5Q4CR",
+            {"gate": "Q5Q4CR"},
             {
                 "pcarrier": 0.0,
                 "t0": 2.8e-07,
@@ -1130,7 +1117,7 @@
                 "fcarrier": "Q1.freq",
                 "t0": 0.0
             },
-            "Q1X90",
+            {"gate": "Q1X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q1.freq",
@@ -1143,7 +1130,7 @@
                 "fcarrier": "Q2.freq",
                 "t0": 0.0
             },
-            "Q2X90",
+            {"gate": "Q2X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q2.freq",
@@ -1156,7 +1143,7 @@
                 "fcarrier": "Q3.freq",
                 "t0": 0.0
             },
-            "Q3X90",
+            {"gate": "Q3X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q3.freq",
@@ -1169,7 +1156,7 @@
                 "fcarrier": "Q7.freq",
                 "t0": 0.0
             },
-            "Q7X90",
+            {"gate": "Q7X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q7.freq",
@@ -1182,7 +1169,7 @@
                 "fcarrier": "Q5.freq",
                 "t0": 0.0
             },
-            "Q5X90",
+            {"gate": "Q5X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q5.freq",
@@ -1195,7 +1182,7 @@
                 "fcarrier": "Q4.freq",
                 "t0": 0.0
             },
-            "Q4X90",
+            {"gate": "Q4X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q4.freq",
@@ -1227,7 +1214,7 @@
                 "t0": 0.0,
                 "fcarrier": "Q1.freq"
             },
-            "Q2Q1CR",
+            {"gate": "Q2Q1CR"},
             {
                 "pcarrier": 2.334406530323391,
                 "t0": 2.48e-07,
@@ -1282,7 +1269,7 @@
                 "t0": 0.0,
                 "fcarrier": "Q5.freq"
             },
-            "Q6Q5CR",
+            {"gate": "Q6Q5CR"},
             {
                 "pcarrier": -0.8825714228129482,
                 "t0": 3.9199999999999996e-07,
@@ -1318,7 +1305,7 @@
                 "fcarrier": "Q6.freq",
                 "t0": 0.0
             },
-            "Q6X90",
+            {"gate": "Q6X90"},
             {
                 "pcarrier": "numpy.pi/2.0",
                 "fcarrier": "Q6.freq",
@@ -1350,7 +1337,7 @@
                 "t0": 0.0,
                 "fcarrier": "Q3.freq"
             },
-            "Q4Q3CR",
+            {"gate": "Q4Q3CR"},
             {
                 "pcarrier": 0.0,
                 "t0": 2.8e-07,
@@ -1405,7 +1392,9 @@
                 "t0": 0.0,
                 "fcarrier": "Q2.freq"
             },
-            "Q3Q2CR",
+            {
+                "gate": "Q3Q2CR"
+            },
             {
                 "pcarrier": 4.668087652996153,
                 "t0": 3.9199999999999996e-07,
