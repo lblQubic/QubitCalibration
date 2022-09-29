@@ -7,7 +7,10 @@ lor=6.932e9
 #loq=4.87e9
 #loq=4.9183e9
 #loq=4.896e9
-loq=5.44e9
+#loq=5.44e9
+#loq=5.42e9
+#loq=5.582e9
+loq=5.412e9
 #loq=5.5e9
 lofreq={'Q0.rdrv':lor
 		,'Q1.rdrv':lor
