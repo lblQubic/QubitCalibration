@@ -94,10 +94,10 @@ switchmap={
 		}
 ttydev={"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.130","default":0}
 		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.130","default":2}
-        ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.185e9}}
+        ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":loq}}
         #,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":4.87e9}}
         #,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.5e9}}
 #        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":6.52e9}}
 #,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":6.85e9}}
-        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":6.932e9}}
+        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":lor}}
 		}
