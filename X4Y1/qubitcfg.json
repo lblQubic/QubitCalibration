@@ -1182,6 +1182,20 @@
                 "twidth": 3.2e-08
             }
         ],
+        "Q0Z90": [
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q0.freq",
+                "t0": 0.0
+            }
+        ],
+        "Q1Z90": [
+            {
+                "pcarrier": "numpy.pi/2.0",
+                "fcarrier": "Q1.freq",
+                "t0": 0.0
+            }
+        ],
         "Q0Y-90": [
             {
                 "pcarrier": "-numpy.pi/2.0",
