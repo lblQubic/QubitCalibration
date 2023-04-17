@@ -85,9 +85,9 @@
     		,"vna.read":"None"
     		,"vna.rdrv":"None"
     		},
-    "ttydev" : {"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.130","default":0}
-		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.130","default":2}
-        ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":3,"freq":5.185e9}}
-        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.130","default":{"chan":1,"freq":6.932e9}}
+    "ttydev" : {"qdrvswitch":{"deviceid":"switch8","hostname":"192.168.1.26","default":0}
+		,"rdrvvat":{"deviceid":"attn1","hostname":"192.168.1.26","default":2}
+        ,"qdrvlo":{"deviceid":"a4spi_03","hostname":"192.168.1.26","default":{"chan":3,"freq":5.185e9}}
+        ,"readlo":{"deviceid":"a4spi_03","hostname":"192.168.1.26","default":{"chan":1,"freq":6.932e9}}
 		}
 }
