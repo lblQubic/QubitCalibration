@@ -289,7 +289,7 @@
                 "dest": "Q1.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.45624646710045597,
+                "amp": 0.4745242933257867,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -503,7 +503,7 @@
                 "dest": "Q3.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.18955173016636584,
+                "amp": 0.15851024982212877,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
