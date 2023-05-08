@@ -503,7 +503,7 @@
                 "dest": "Q3.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.1476751195631213,
+                "amp": 0.1496551724137931,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
