@@ -266,7 +266,7 @@
             },
             {
                 "fcarrier": "Q0.readfreq",
-                "pcarrier": 0,
+                "pcarrier": 1.4806632895920675,
                 "dest": "Q0.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -396,7 +396,7 @@
                 "dest": "Q2.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.3796820256129341,
+                "amp": 0.3724137931034483,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -587,7 +587,7 @@
             },
             {
                 "fcarrier": "Q3.readfreq",
-                "pcarrier": 3.0363641695072783,
+                "pcarrier": 1.7667152004688211,
                 "dest": "Q3.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
