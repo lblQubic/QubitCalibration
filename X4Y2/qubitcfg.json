@@ -91,8 +91,8 @@
     "Gates": {
         "M0mark": [
             {
-                "fcarrier": 0.0,
-                "pcarrier": 0.0,
+                "freq": 0.0,
+                "phase": 0.0,
                 "dest": "M0.mark",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -107,8 +107,8 @@
         ],
         "alignmentread": [
             {
-                "fcarrier": "alignment.readfreq",
-                "pcarrier": 0.0,
+                "freq": "alignment.readfreq",
+                "phase": 0.0,
                 "dest": "alignment.rdrv",
                 "twidth": 2e-06,
                 "t0": 0.0,
@@ -123,8 +123,8 @@
                 ]
             },
             {
-                "fcarrier": "alignment.readfreq",
-                "pcarrier": 0.0,
+                "freq": "alignment.readfreq",
+                "phase": 0.0,
                 "dest": "alignment.read",
                 "twidth": 2e-06,
                 "t0": 6e-07,
@@ -142,8 +142,8 @@
         ],
         "vnaread": [
             {
-                "fcarrier": "vna.readfreq",
-                "pcarrier": 0.0,
+                "freq": "vna.readfreq",
+                "phase": 0.0,
                 "dest": "vna.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -158,8 +158,8 @@
                 ]
             },
             {
-                "fcarrier": "vna.readfreq",
-                "pcarrier": 0.0,
+                "freq": "vna.readfreq",
+                "phase": 0.0,
                 "dest": "vna.read",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -177,8 +177,8 @@
         ],
         "Q0X90": [
             {
-                "fcarrier": "Q0.freq",
-                "pcarrier": 0.0,
+                "freq": "Q0.freq",
+                "phase": 0.0,
                 "dest": "Q0.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
@@ -195,8 +195,8 @@
         ],
         "Q0X90_ef": [
             {
-                "fcarrier": "Q0.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q0.freq_ef",
+                "phase": 0.0,
                 "dest": "Q0.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -213,8 +213,8 @@
         ],
         "Q0rabi_ef": [
             {
-                "fcarrier": "Q0.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q0.freq_ef",
+                "phase": 0.0,
                 "dest": "Q0.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -231,8 +231,8 @@
         ],
         "Q0rabi": [
             {
-                "fcarrier": "Q0.freq",
-                "pcarrier": 0.0,
+                "freq": "Q0.freq",
+                "phase": 0.0,
                 "dest": "Q0.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -249,8 +249,8 @@
         ],
         "Q0read": [
             {
-                "fcarrier": "Q0.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q0.readfreq",
+                "phase": 0.0,
                 "dest": "Q0.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -265,8 +265,8 @@
                 ]
             },
             {
-                "fcarrier": "Q0.readfreq",
-                "pcarrier": 1.4806632895920675,
+                "freq": "Q0.readfreq",
+                "phase": 1.4806632895920675,
                 "dest": "Q0.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -284,8 +284,8 @@
         ],
         "Q1X90": [
             {
-                "fcarrier": "Q1.freq",
-                "pcarrier": 0.0,
+                "freq": "Q1.freq",
+                "phase": 0.0,
                 "dest": "Q1.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
@@ -302,8 +302,8 @@
         ],
         "Q1X90_ef": [
             {
-                "fcarrier": "Q1.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q1.freq_ef",
+                "phase": 0.0,
                 "dest": "Q1.qdrv",
                 "twidth": 6.4e-08,
                 "t0": 0.0,
@@ -320,8 +320,8 @@
         ],
         "Q1rabi_ef": [
             {
-                "fcarrier": "Q1.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q1.freq_ef",
+                "phase": 0.0,
                 "dest": "Q1.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -338,8 +338,8 @@
         ],
         "Q1rabi": [
             {
-                "fcarrier": "Q1.freq",
-                "pcarrier": 0.0,
+                "freq": "Q1.freq",
+                "phase": 0.0,
                 "dest": "Q1.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -356,8 +356,8 @@
         ],
         "Q1read": [
             {
-                "fcarrier": "Q1.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q1.readfreq",
+                "phase": 0.0,
                 "dest": "Q1.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -372,8 +372,8 @@
                 ]
             },
             {
-                "fcarrier": "Q1.readfreq",
-                "pcarrier": 0,
+                "freq": "Q1.readfreq",
+                "phase": 0,
                 "dest": "Q1.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -391,8 +391,8 @@
         ],
         "Q2X90": [
             {
-                "fcarrier": "Q2.freq",
-                "pcarrier": 0.0,
+                "freq": "Q2.freq",
+                "phase": 0.0,
                 "dest": "Q2.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
@@ -409,8 +409,8 @@
         ],
         "Q2X90_ef": [
             {
-                "fcarrier": "Q2.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q2.freq_ef",
+                "phase": 0.0,
                 "dest": "Q2.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -427,8 +427,8 @@
         ],
         "Q2rabi_ef": [
             {
-                "fcarrier": "Q2.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q2.freq_ef",
+                "phase": 0.0,
                 "dest": "Q2.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -445,8 +445,8 @@
         ],
         "Q2rabi": [
             {
-                "fcarrier": "Q2.freq",
-                "pcarrier": 0.0,
+                "freq": "Q2.freq",
+                "phase": 0.0,
                 "dest": "Q2.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -463,8 +463,8 @@
         ],
         "Q2read": [
             {
-                "fcarrier": "Q2.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q2.readfreq",
+                "phase": 0.0,
                 "dest": "Q2.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -479,8 +479,8 @@
                 ]
             },
             {
-                "fcarrier": "Q2.readfreq",
-                "pcarrier": 0,
+                "freq": "Q2.readfreq",
+                "phase": 0,
                 "dest": "Q2.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -498,8 +498,8 @@
         ],
         "Q3X90": [
             {
-                "fcarrier": "Q3.freq",
-                "pcarrier": 0.0,
+                "freq": "Q3.freq",
+                "phase": 0.0,
                 "dest": "Q3.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
@@ -516,8 +516,8 @@
         ],
         "Q3X90_ef": [
             {
-                "fcarrier": "Q3.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q3.freq_ef",
+                "phase": 0.0,
                 "dest": "Q3.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -534,8 +534,8 @@
         ],
         "Q3rabi_ef": [
             {
-                "fcarrier": "Q3.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q3.freq_ef",
+                "phase": 0.0,
                 "dest": "Q3.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -552,8 +552,8 @@
         ],
         "Q3rabi": [
             {
-                "fcarrier": "Q3.freq",
-                "pcarrier": 0.0,
+                "freq": "Q3.freq",
+                "phase": 0.0,
                 "dest": "Q3.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -570,8 +570,8 @@
         ],
         "Q3read": [
             {
-                "fcarrier": "Q3.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q3.readfreq",
+                "phase": 0.0,
                 "dest": "Q3.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -586,8 +586,8 @@
                 ]
             },
             {
-                "fcarrier": "Q3.readfreq",
-                "pcarrier": 1.7667152004688211,
+                "freq": "Q3.readfreq",
+                "phase": 1.7667152004688211,
                 "dest": "Q3.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -605,8 +605,8 @@
         ],
         "Q5X90": [
             {
-                "fcarrier": "Q5.freq",
-                "pcarrier": 0.0,
+                "freq": "Q5.freq",
+                "phase": 0.0,
                 "dest": "Q5.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -623,8 +623,8 @@
         ],
         "Q5X90_ef": [
             {
-                "fcarrier": "Q5.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q5.freq_ef",
+                "phase": 0.0,
                 "dest": "Q5.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -641,8 +641,8 @@
         ],
         "Q5rabi_ef": [
             {
-                "fcarrier": "Q5.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q5.freq_ef",
+                "phase": 0.0,
                 "dest": "Q5.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -659,8 +659,8 @@
         ],
         "Q5rabi": [
             {
-                "fcarrier": "Q5.freq",
-                "pcarrier": 0.0,
+                "freq": "Q5.freq",
+                "phase": 0.0,
                 "dest": "Q5.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -677,8 +677,8 @@
         ],
         "Q5read": [
             {
-                "fcarrier": "Q5.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q5.readfreq",
+                "phase": 0.0,
                 "dest": "Q5.rdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -693,8 +693,8 @@
                 ]
             },
             {
-                "fcarrier": "Q5.readfreq",
-                "pcarrier": 6.275011358862511,
+                "freq": "Q5.readfreq",
+                "phase": 6.275011358862511,
                 "dest": "Q5.rdlo",
                 "twidth": 1e-06,
                 "t0": 6e-07,
@@ -712,8 +712,8 @@
         ],
         "Q4X90_ef": [
             {
-                "fcarrier": "Q4.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q4.freq_ef",
+                "phase": 0.0,
                 "dest": "Q4.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -730,8 +730,8 @@
         ],
         "Q4X90": [
             {
-                "fcarrier": "Q4.freq",
-                "pcarrier": 0.0,
+                "freq": "Q4.freq",
+                "phase": 0.0,
                 "dest": "Q4.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -748,8 +748,8 @@
         ],
         "Q4rabi_ef": [
             {
-                "fcarrier": "Q4.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q4.freq_ef",
+                "phase": 0.0,
                 "dest": "Q4.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -766,8 +766,8 @@
         ],
         "Q4rabi": [
             {
-                "fcarrier": "Q4.freq",
-                "pcarrier": 0.0,
+                "freq": "Q4.freq",
+                "phase": 0.0,
                 "dest": "Q4.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -784,8 +784,8 @@
         ],
         "Q4read": [
             {
-                "fcarrier": "Q4.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q4.readfreq",
+                "phase": 0.0,
                 "dest": "Q4.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -800,8 +800,8 @@
                 ]
             },
             {
-                "fcarrier": "Q4.readfreq",
-                "pcarrier": 3.624878768638384,
+                "freq": "Q4.readfreq",
+                "phase": 3.624878768638384,
                 "dest": "Q4.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -819,8 +819,8 @@
         ],
         "Q6X90": [
             {
-                "fcarrier": "Q6.freq",
-                "pcarrier": 0.0,
+                "freq": "Q6.freq",
+                "phase": 0.0,
                 "dest": "Q6.qdrv",
                 "twidth": 6.4e-08,
                 "t0": 0.0,
@@ -837,8 +837,8 @@
         ],
         "Q6X90_ef": [
             {
-                "fcarrier": "Q6.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q6.freq_ef",
+                "phase": 0.0,
                 "dest": "Q6.qdrv",
                 "twidth": 6.4e-08,
                 "t0": 0.0,
@@ -855,8 +855,8 @@
         ],
         "Q6rabi_ef": [
             {
-                "fcarrier": "Q6.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q6.freq_ef",
+                "phase": 0.0,
                 "dest": "Q6.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -873,8 +873,8 @@
         ],
         "Q6rabi": [
             {
-                "fcarrier": "Q6.freq",
-                "pcarrier": 0.0,
+                "freq": "Q6.freq",
+                "phase": 0.0,
                 "dest": "Q6.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -891,8 +891,8 @@
         ],
         "Q6read": [
             {
-                "fcarrier": "Q6.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q6.readfreq",
+                "phase": 0.0,
                 "dest": "Q6.rdrv",
                 "twidth": 4e-06,
                 "t0": 0.0,
@@ -907,8 +907,8 @@
                 ]
             },
             {
-                "fcarrier": "Q6.readfreq",
-                "pcarrier": 0.9312892237695153,
+                "freq": "Q6.readfreq",
+                "phase": 0.9312892237695153,
                 "dest": "Q6.rdlo",
                 "twidth": 4e-06,
                 "t0": 6e-07,
@@ -926,8 +926,8 @@
         ],
         "Q7X90": [
             {
-                "fcarrier": "Q7.freq",
-                "pcarrier": 0.0,
+                "freq": "Q7.freq",
+                "phase": 0.0,
                 "dest": "Q7.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -944,8 +944,8 @@
         ],
         "Q7X90_ef": [
             {
-                "fcarrier": "Q7.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q7.freq_ef",
+                "phase": 0.0,
                 "dest": "Q7.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
@@ -962,8 +962,8 @@
         ],
         "Q7rabi_ef": [
             {
-                "fcarrier": "Q7.freq_ef",
-                "pcarrier": 0.0,
+                "freq": "Q7.freq_ef",
+                "phase": 0.0,
                 "dest": "Q7.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -980,8 +980,8 @@
         ],
         "Q7rabi": [
             {
-                "fcarrier": "Q7.freq",
-                "pcarrier": 0.0,
+                "freq": "Q7.freq",
+                "phase": 0.0,
                 "dest": "Q7.qdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -998,8 +998,8 @@
         ],
         "Q7read": [
             {
-                "fcarrier": "Q7.readfreq",
-                "pcarrier": 0.0,
+                "freq": "Q7.readfreq",
+                "phase": 0.0,
                 "dest": "Q7.rdrv",
                 "twidth": 1e-06,
                 "t0": 0.0,
@@ -1014,8 +1014,8 @@
                 ]
             },
             {
-                "fcarrier": "Q7.readfreq",
-                "pcarrier": 4.256638268772688,
+                "freq": "Q7.readfreq",
+                "phase": 4.256638268772688,
                 "dest": "Q7.rdlo",
                 "twidth": 1e-06,
                 "t0": 6e-07,
@@ -1033,8 +1033,8 @@
         ],
         "Q5Q4CR": [
             {
-                "fcarrier": "Q4.freq",
-                "pcarrier": 0.0,
+                "freq": "Q4.freq",
+                "phase": 0.0,
                 "dest": "Q5.qdrv",
                 "twidth": 0.0,
                 "t0": 0.0,
@@ -1070,8 +1070,8 @@
                 "phase": 0.0
             },
             {
-                "fcarrier": "Q4.freq",
-                "pcarrier": 0,
+                "freq": "Q4.freq",
+                "phase": 0,
                 "dest": "Q4.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 2.88e-07,
@@ -1221,8 +1221,8 @@
         ],
         "Q2Q1CR": [
             {
-                "fcarrier": "Q1.freq",
-                "pcarrier": 0.0,
+                "freq": "Q1.freq",
+                "phase": 0.0,
                 "dest": "Q2.qdrv",
                 "twidth": 3e-07,
                 "t0": 0.0,
@@ -1258,8 +1258,8 @@
                 "phase": 4.21833701036719
             },
             {
-                "fcarrier": "Q1.freq",
-                "pcarrier": 0,
+                "freq": "Q1.freq",
+                "phase": 0,
                 "dest": "Q1.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 3e-07,
@@ -1276,8 +1276,8 @@
         ],
         "Q6Q5CR": [
             {
-                "fcarrier": "Q5.freq",
-                "pcarrier": 0.0,
+                "freq": "Q5.freq",
+                "phase": 0.0,
                 "dest": "Q6.qdrv",
                 "twidth": 4e-07,
                 "t0": 0.0,
@@ -1313,8 +1313,8 @@
                 "phase": -1.81297365549029
             },
             {
-                "fcarrier": "Q5.freq",
-                "pcarrier": 0,
+                "freq": "Q5.freq",
+                "phase": 0,
                 "dest": "Q5.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 4e-07,
@@ -1346,8 +1346,8 @@
         ],
         "Q4Q3CR": [
             {
-                "fcarrier": "Q3.freq",
-                "pcarrier": 0.0,
+                "freq": "Q3.freq",
+                "phase": 0.0,
                 "dest": "Q4.qdrv",
                 "twidth": 0.0,
                 "t0": 0.0,
@@ -1383,8 +1383,8 @@
                 "phase": 0.0
             },
             {
-                "fcarrier": "Q3.freq",
-                "pcarrier": 0,
+                "freq": "Q3.freq",
+                "phase": 0,
                 "dest": "Q3.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 2.88e-07,
@@ -1401,8 +1401,8 @@
         ],
         "Q3Q2CR": [
             {
-                "fcarrier": "Q2.freq",
-                "pcarrier": 0.0,
+                "freq": "Q2.freq",
+                "phase": 0.0,
                 "dest": "Q3.qdrv",
                 "twidth": 4e-07,
                 "t0": 0.0,
@@ -1438,8 +1438,8 @@
                 "phase": 3.523489220073639
             },
             {
-                "fcarrier": "Q2.freq",
-                "pcarrier": 0,
+                "freq": "Q2.freq",
+                "phase": 0,
                 "dest": "Q2.qdrv",
                 "twidth": 6.4e-08,
                 "t0": 4e-07,
