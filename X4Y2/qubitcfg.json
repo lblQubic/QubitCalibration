@@ -289,7 +289,7 @@
                 "dest": "Q1.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.47624592578232405,
+                "amp": 0.4699900268877754,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -396,7 +396,7 @@
                 "dest": "Q2.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.3724137931034483,
+                "amp": 0.38442952351328535,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -503,7 +503,7 @@
                 "dest": "Q3.qdrv",
                 "twidth": 2.4e-08,
                 "t0": 0.0,
-                "amp": 0.1496551724137931,
+                "amp": 0.1726852206564645,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
