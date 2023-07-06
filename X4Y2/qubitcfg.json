@@ -32,7 +32,7 @@
             "freq_ef": 5089500000.0
         },
         "Q3": {
-            "freq": 5114911040.024481,
+            "freq": 5114859573.056207,
             "readfreq": 6700247117.708118,
             "freq0": 5116843698.767973,
             "freq_predicted": 5289320500.0,
@@ -43,7 +43,7 @@
             "freq_ef": 4849300000.0
         },
         "Q2": {
-            "freq": 4944461837.827577,
+            "freq": 4944383311.009714,
             "readfreq": 6658138379.131528,
             "freq_predicted": 5030611000.0,
             "readfreq0": 6657029587.25541,
@@ -57,7 +57,7 @@
             "freq_ef": 4400700000.0
         },
         "Q0": {
-            "freq": 4461736318.073627,
+            "freq": 4460029188.07884,
             "readfreq": 6554327471.963202,
             "freq_predicted": 4504421000.0,
             "readfreq0": 6553826000.000857,
@@ -259,7 +259,8 @@
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "ramp_fraction": 0.25,
+                            "twidth": 2e-06
                         }
                     }
                 ]
@@ -276,7 +277,8 @@
                         "env_func": "square",
                         "paradict": {
                             "phase": 0.0,
-                            "amplitude": 1.0
+                            "amplitude": 1.0,
+                            "twidth": 2e-06
                         }
                     }
                 ]
@@ -475,7 +477,8 @@
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "ramp_fraction": 0.25,
+                            "twidth": 2e-06
                         }
                     }
                 ]
@@ -492,7 +495,8 @@
                         "env_func": "square",
                         "paradict": {
                             "phase": 0.0,
-                            "amplitude": 1.0
+                            "amplitude": 1.0,
+                            "twidth": 2e-06
                         }
                     }
                 ]
@@ -582,7 +586,8 @@
                     {
                         "env_func": "cos_edge_square",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "ramp_fraction": 0.25,
+                            "twidth": 2e-06
                         }
                     }
                 ]
@@ -599,7 +604,8 @@
                         "env_func": "square",
                         "paradict": {
                             "phase": 0.0,
-                            "amplitude": 1.0
+                            "amplitude": 1.0,
+                            "twidth": 2e-06
                         }
                     }
                 ]
