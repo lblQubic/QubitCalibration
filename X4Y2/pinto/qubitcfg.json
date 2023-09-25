@@ -50,14 +50,14 @@
             "freq_ef": 4672600000.0
         },
         "Q1": {
-            "freq": 4672881192.364424,
+            "freq": 4672888115.812662,
             "readfreq": 6558500000.003296,
             "freq_predicted": 4963089500.0,
             "readfreq0": 6557557365.594907,
             "freq_ef": 4400700000.0
         },
         "Q0": {
-            "freq": 4460826233.371956,
+            "freq": 4460835241.483449,
             "readfreq": 6554298629.445268,
             "freq_predicted": 4504421000.0,
             "readfreq0": 6553826000.000857,
@@ -200,12 +200,12 @@
                 "dest": "Q0.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.24515553844759091,
+                "amp": 0.24283409065101583,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": 0.800850891698236,
+                            "alpha": 0.9122350273945752,
                             "sigmas": 3,
                             "delta": -268000000.0,
                             "twidth": 3.2e-08
@@ -265,6 +265,59 @@
                         "env_func": "cos_edge_square",
                         "paradict": {
                             "ramp_fraction": 0.25
+                        }
+                    }
+                ]
+            }
+        ],
+        "Q0rabi3_cos": [
+            {
+                "freq": "Q0.freq",
+                "phase": 0.0,
+                "dest": "Q0.qdrv",
+                "twidth": 8e-09,
+                "t0": 0.0,
+                "amp": 0.14,
+                "env": [
+                    {
+                        "env_func": "cos_edge",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+							,"edge":1
+                        }
+                    }
+                ]
+            },
+            {
+                "freq": "Q0.freq",
+                "phase": 0.0,
+                "dest": "Q0.qdrv",
+                "twidth": 0,
+                "t0": 8e-9,
+                "amp": 0.14,
+                "env": [
+                    {
+                        "env_func": "square",
+                        "paradict": {
+                            "phase": 0.0,
+                            "amplitude": 1.0
+                        }
+                    }
+                ]
+            },
+            {
+                "freq": "Q0.freq",
+                "phase": 0.0,
+                "dest": "Q0.qdrv",
+                "twidth": 8e-09,
+                "t0": 30e-9,
+                "amp": 0.14,
+                "env": [
+                    {
+                        "env_func": "cos_edge",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+							,"edge":2
                         }
                     }
                 ]
@@ -332,12 +385,12 @@
                 "dest": "Q1.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.4526822098365504,
+                "amp": 0.45447289441092675,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": -0.4428817389038459,
+                            "alpha": -0.5809128264584555,
                             "sigmas": 3,
                             "delta": -268000000.0,
                             "twidth": 3.2e-08
@@ -1200,7 +1253,23 @@
                 "phase": "-numpy.pi/2.0"
             },
             {
-                "gate": "Q0X90"
+                "freq": "Q0.freq",
+                "phase": 0.0,
+                "dest": "Q0.qdrv",
+                "twidth": 3.2e-08,
+                "t0": 0.0,
+                "amp": 0.24283409065101583,
+                "env": [
+                    {
+                        "env_func": "DRAG",
+                        "paradict": {
+                            "alpha": 0.9122350273945752,
+                            "sigmas": 3,
+                            "delta": -268000000.0,
+                            "twidth": 3.2e-08
+                        }
+                    }
+                ]
             },
             {
                 "gate": "virtualz",
@@ -1305,7 +1374,7 @@
                 "dest": "Q1.qdrv",
                 "twidth": 3.5e-07,
                 "t0": 0.0,
-                "amp": 0.6920859253021416,
+                "amp": 0.7518796807953743,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -1321,7 +1390,7 @@
             {
                 "gate": "virtualz",
                 "freq": "Q0.freq",
-                "phase": 1.394423897092909
+                "phase": 1.4212689950775497
             },
             {
                 "freq": "Q0.freq",
@@ -1329,7 +1398,7 @@
                 "dest": "Q1.qdrv",
                 "twidth": 3.5e-07,
                 "t0": 0.0,
-                "amp": 0.6920859253021416,
+                "amp": 0.7320677469781932,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -1344,12 +1413,12 @@
             {
                 "gate": "virtualz",
                 "freq": "Q0.freq",
-                "phase": -1.394423897092909
+                "phase": -1.4212689950775497
             },
             {
                 "gate": "virtualz",
                 "freq": "Q1.freq",
-                "phase": 1.6384421500413342
+                "phase": 2.220139513142343
             },
             {
                 "freq": "Q0.freq",
@@ -1357,12 +1426,12 @@
                 "dest": "Q0.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 3.5e-07,
-                "amp": 0.0544127239123428,
+                "amp": 0.02493029384342981,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": 0.8522556310528082,
+                            "alpha": 0.8389123783533574,
                             "sigmas": 3,
                             "delta": -268000000.0,
                             "twidth": 3.2e-08
