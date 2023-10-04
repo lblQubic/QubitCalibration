@@ -283,7 +283,7 @@
                         "env_func": "cos_edge",
                         "paradict": {
                             "ramp_fraction": 0.25,
-                            "edge": 1
+                            "edge": "rising"
                         }
                     }
                 ]
@@ -317,7 +317,7 @@
                         "env_func": "cos_edge",
                         "paradict": {
                             "ramp_fraction": 0.25,
-                            "edge": 2
+                            "edge": "falling"
                         }
                     }
                 ]
