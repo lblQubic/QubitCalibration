@@ -43,22 +43,22 @@
             "freq_ef": 4849300000.0
         },
         "Q2": {
-            "freq": 4946261156.197179,
+            "freq": 4946362806.78054,
             "readfreq": 6657842684.796252,
             "freq_predicted": 5030611000.0,
             "readfreq0": 6657029587.25541,
             "freq_ef": 4672600000.0
         },
         "Q1": {
-            "freq": 4673060744.714136,
-            "readfreq": 6558500000.003296,
+            "freq": 4672932612.436883,
+            "readfreq": 6558700000.0,
             "freq_predicted": 4963089500.0,
             "readfreq0": 6557557365.594907,
             "freq_ef": 4400700000.0
         },
         "Q0": {
-            "freq": 4460853346.355276,
-            "readfreq": 6554298629.445268,
+            "freq": 4460730565.1856575,
+            "readfreq": 6554400000.0,
             "readfreq0": 6553826000.000857,
             "freq_predicted": 4504421000.0,
             "freq_ef": 4182558902.85729
@@ -200,12 +200,12 @@
                 "dest": "Q0.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.5494866315896213,
+                "amp": 0.544688601944981,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": -0.4456809897998536,
+                            "alpha": 1.4364020294140203,
                             "sigmas": 3,
                             "delta": -268000000.0,
                             "twidth": 3.2e-08
@@ -277,7 +277,7 @@
                 "dest": "Q0.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.99,
+                "amp": 0.544688601944981,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -401,7 +401,7 @@
                 "dest": "Q0.rdrv",
                 "twidth": 2e-06,
                 "t0": 0.0,
-                "amp": 0.04,
+                "amp": 0.06,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -414,7 +414,7 @@
             },
             {
                 "freq": "Q0.readfreq",
-                "phase": 0.05185832498783628,
+                "phase": 5.869218816753222,
                 "dest": "Q0.rdlo",
                 "twidth": 2e-06,
                 "t0": 2e-07,
@@ -456,12 +456,12 @@
                 "dest": "Q1.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.28658762957321693,
+                "amp": 0.2830221491119707,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": -1.223414129585068,
+                            "alpha": -1.1764599344655577,
                             "sigmas": 3,
                             "delta": -268000000.0,
                             "twidth": 3.2e-08
@@ -511,9 +511,9 @@
                 "freq": "Q1.freq",
                 "phase": 0.0,
                 "dest": "Q1.qdrv",
-                "twidth": 1e-06,
+                "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.5,
+                "amp": 0.2830221491119707,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -529,7 +529,7 @@
                 "freq": "Q1.freq",
                 "phase": 0.0,
                 "dest": "Q1.qdrv",
-                "twidth": 2.56e-07,
+                "twidth": 3.2e-08,
                 "t0": 0.0,
                 "amp": 0.8749731996720389,
                 "env": [
@@ -604,7 +604,7 @@
                 "dest": "Q1.rdrv",
                 "twidth": 2e-06,
                 "t0": 0.0,
-                "amp": 0.03,
+                "amp": 0.035,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -617,7 +617,7 @@
             },
             {
                 "freq": "Q1.readfreq",
-                "phase": 1.7268817363007534,
+                "phase": 0.8536791649098507,
                 "dest": "Q1.rdlo",
                 "twidth": 2e-06,
                 "t0": 2e-07,
@@ -660,7 +660,7 @@
                 "dest": "Q2.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.42786427050153114,
+                "amp": 0.4264786580370002,
                 "env": [
                     {
                         "env_func": "DRAG",
@@ -735,9 +735,9 @@
                 "freq": "Q2.freq",
                 "phase": 0.0,
                 "dest": "Q2.qdrv",
-                "twidth": 1e-06,
+                "twidth": 3.2e-08,
                 "t0": 0.0,
-                "amp": 0.3878848667224444,
+                "amp": 0.4264786580370002,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -821,7 +821,7 @@
             },
             {
                 "freq": "Q2.readfreq",
-                "phase": 1.9246227650809251,
+                "phase": 2.0711772647787665,
                 "dest": "Q2.rdlo",
                 "twidth": 2e-06,
                 "t0": 2e-07,
@@ -1800,7 +1800,7 @@
                 "dest": "Q1.qdrv",
                 "twidth": 3.5e-07,
                 "t0": 0.0,
-                "amp": 0.7023280239737277,
+                "amp": 0.6817304391496652,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -1816,7 +1816,7 @@
             {
                 "gate": "virtualz",
                 "freq": "Q0.freq",
-                "phase": -1.2170448300451682
+                "phase": -1.1565335796613236
             },
             {
                 "freq": "Q0.freq",
@@ -1824,7 +1824,7 @@
                 "dest": "Q1.qdrv",
                 "twidth": 3.5e-07,
                 "t0": 0.0,
-                "amp": 0.7023280239737277,
+                "amp": 0.6817304391496652,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -1839,12 +1839,12 @@
             {
                 "gate": "virtualz",
                 "freq": "Q0.freq",
-                "phase": 1.2170448300451682
+                "phase": 1.1565335796613236
             },
             {
                 "gate": "virtualz",
                 "freq": "Q1.freq",
-                "phase": -2.805545832673001
+                "phase": -4.046565681815593
             },
             {
                 "freq": "Q0.freq",
@@ -1852,12 +1852,12 @@
                 "dest": "Q0.qdrv",
                 "twidth": 3.2e-08,
                 "t0": 3.5e-07,
-                "amp": 1.9779822094629769,
+                "amp": 0.13895110339818395,
                 "env": [
                     {
                         "env_func": "DRAG",
                         "paradict": {
-                            "alpha": 0.7202562082592341,
+                            "alpha": -0.4657002243650189,
                             "sigmas": 3,
                             "delta": -268000000.0,
                             "twidth": 3.2e-08
