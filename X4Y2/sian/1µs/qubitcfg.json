@@ -617,18 +617,19 @@
             },
             {
                 "freq": "Q1.readfreq",
-                "phase": 1.8643461140557456,
+                "phase": 1.031498831332338,
                 "dest": "Q1.rdlo",
                 "twidth": 2e-06,
                 "t0": 1e-07,
                 "amp": 1.0,
                 "env": [
                     {
-                        "env_func": "square",
+                        "env_func": "arb",
                         "paradict": {
-                            "phase": 0.0,
-                            "amplitude": 1.0,
-                            "twidth": 1e-06
+                            "filename": "envelope.json",
+                            "path": "chipcalibration/submodules/qchip/X4Y2/sian/",
+                            "qubit_id": "Q1",
+                            "twidth": 2e-06
                         }
                     }
                 ]
@@ -644,9 +645,11 @@
                 "amp": 0.40108368770000113,
                 "env": [
                     {
-                        "env_func": "cos_edge_square",
+                        "env_func": "arb",
                         "paradict": {
-                            "ramp_fraction": 0.25
+                            "filename": "envelope.json",
+                            "qubit_id": "Q1",
+                            "path": "chipcalibration/submodules/qchip/X4Y2/sian/"
                         }
                     }
                 ]
@@ -978,10 +981,11 @@
                 "amp": 1.0,
                 "env": [
                     {
-                        "env_func": "square",
+                        "env_func": "arb",
                         "paradict": {
-                            "phase": 0.0,
-                            "amplitude": 1.0,
+                            "filename": "envelope.json",
+                            "qubit_id": "Q3",
+                            "path": "chipcalibration/submodules/qchip/X4Y2/sian/",
                             "twidth": 1e-06
                         }
                     }
@@ -1578,11 +1582,11 @@
                 "amp": 0.99,
                 "env": [
                     {
-                        "env_func": "square",
+                        "env_func": "arb",
                         "paradict": {
-                            "phase": 0.0,
-                            "amplitude": 1.0,
-                            "twidth": 2e-06
+                            "filename": "envelope.json",
+                            "qubit_id": "Q3",
+                            "path": "chipcalibration/submodules/qchip/X4Y2/sian/"
                         }
                     }
                 ]
