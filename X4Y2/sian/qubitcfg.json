@@ -1698,23 +1698,7 @@
                 "phase": "-numpy.pi/2.0"
             },
             {
-                "freq": "Q0.freq",
-                "phase": 0.0,
-                "dest": "Q0.qdrv",
-                "twidth": 3.2e-08,
-                "t0": 0.0,
-                "amp": 0.24283409065101583,
-                "env": [
-                    {
-                        "env_func": "DRAG",
-                        "paradict": {
-                            "alpha": 0.9122350273945752,
-                            "sigmas": 3,
-                            "delta": -268000000.0,
-                            "twidth": 3.2e-08
-                        }
-                    }
-                ]
+                "gate": "Q0X90"
             },
             {
                 "gate": "virtualz",
@@ -1812,6 +1796,51 @@
                 "phase": "numpy.pi/2.0"
             }
         ],
+        "Q0Q1CZ": [
+            {
+                "freq": 4440000000,
+                "phase": 0,
+                "dest": "Q0.qdrv",
+                "t0": 0,
+                "twidth": 4.0e-7,
+                "amp": 0.85728,
+                "env":[
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ]
+            },
+            {
+                "freq": 4440000000,
+                "phase": -1.03375,
+                "dest": "Q1.qdrv",
+                "t0": 0,
+                "twidth": 4.0e-7,
+                "amp": 0.85728,
+                "env":[
+                    {
+                        "env_func": "cos_edge_square",
+                        "paradict": {
+                            "ramp_fraction": 0.25
+                        }
+                    }
+                ]
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q0.freq",
+                "phase": -1.56844
+            },
+            {
+                "gate": "virtualz",
+                "freq": "Q1.freq",
+                "phase": -2.017974
+            }
+    ],
+
         "Q1Q0CR": [
             {
                 "freq": "Q0.freq",
