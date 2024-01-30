@@ -462,7 +462,7 @@
         "Q1X90": [
             {
                 "gate": "virtualz",
-                "freq": "Q0.freq",
+                "freq": "Q1.freq",
                 "phase": 0.067896
             },
             {
@@ -486,7 +486,7 @@
             },
             {
                 "gate": "virtualz",
-                "freq": "Q0.freq",
+                "freq": "Q1.freq",
                 "phase": 0.067896
             }
         ],
