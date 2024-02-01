@@ -683,6 +683,7 @@
                 "phase": 0.0,
                 "dest": "Q2.qdrv",
                 "twidth": 3e-08,
+                "t0": 0,
                 "amp": 0.82522,
                 "env": {
                     "env_func": "DRAG",
@@ -891,6 +892,7 @@
                 "phase": 0.0,
                 "dest": "Q3.qdrv",
                 "twidth": 3e-08,
+                "t0": 0,
                 "amp": 0.35958,
                 "env": {
                     "env_func": "DRAG",
