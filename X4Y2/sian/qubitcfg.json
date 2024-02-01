@@ -33,7 +33,7 @@
         },
         "Q3": {
             "freq": 5102986239.92942,
-            "readfreq": 6699335968.0,
+            "readfreq": 6698975968.0,
             "freq0": 5116843698.767973,
             "freq_predicted": 5289320500.0,
             "readfreq0": 6698689276.946692,
@@ -44,7 +44,7 @@
         },
         "Q2": {
             "freq": 4943932126.00276,
-            "readfreq": 6657202684.79625,
+            "readfreq": 6657262684.79625,
             "freq_predicted": 5030611000.0,
             "readfreq0": 6657029587.25541,
             "freq_ef": 4672600000.0
@@ -990,7 +990,7 @@
                 "dest": "Q3.rdrv",
                 "twidth": 1.5408e-06,
                 "t0": 0.0,
-                "amp": 0.0325,
+                "amp": 0.0421,
                 "env": [
                     {
                         "env_func": "cos_edge_square",
@@ -2165,7 +2165,7 @@
                 "dest": "Q2.qdrv",
                 "twidth": 4e-07,
                 "t0": 0,
-                "amp": 0.62441,
+                "amp": 0.64296,
                 "env": {
                     "env_func": "cos_edge_square",
                     "paradict": {
@@ -2175,11 +2175,11 @@
             },
             {
                 "freq": 4900000000.0,
-                "phase": 1.44591,
+                "phase": 1.51019,
                 "dest": "Q3.qdrv",
                 "twidth": 4e-07,
                 "t0": 0,
-                "amp": 0.62441,
+                "amp": 0.64296,
                 "env": {
                     "env_func": "cos_edge_square",
                     "paradict": {
@@ -2190,12 +2190,12 @@
             {
                 "gate": "virtualz",
                 "freq": "Q2.freq",
-                "phase": 0.27877
+                "phase": 0.84794
             },
             {
                 "gate": "virtualz",
                 "freq": "Q3.freq",
-                "phase": -2.49444
+                "phase": -1.98924
             }
         ]
     }
