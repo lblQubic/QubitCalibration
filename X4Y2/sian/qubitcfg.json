@@ -32,7 +32,7 @@
             "freq_ef": 5089500000.0
         },
         "Q3": {
-            "freq": 5102986239.92942,
+            "freq": 5102661239.92942,
             "readfreq": 6698975968.0,
             "freq0": 5116843698.767973,
             "freq_predicted": 5289320500.0,
@@ -43,7 +43,7 @@
             "freq_ef": 4849300000.0
         },
         "Q2": {
-            "freq": 4943932126.00276,
+            "freq": 4943910126.00276,
             "readfreq": 6657262684.79625,
             "freq_predicted": 5030611000.0,
             "readfreq0": 6657029587.25541,
@@ -676,7 +676,7 @@
             {
                 "gate": "virtualz",
                 "freq": "Q2.freq",
-                "phase": 0.019316
+                "phase": 0.017505
             },
             {
                 "freq": "Q2.freq",
@@ -697,7 +697,7 @@
             {
                 "gate": "virtualz",
                 "freq": "Q2.freq",
-                "phase": 0.019316
+                "phase": 0.017505
             }
         ],
         "Q2X90_ef": [
@@ -885,7 +885,7 @@
             {
                 "gate": "virtualz",
                 "freq": "Q3.freq",
-                "phase": 0.076219
+                "phase": 0.079509
             },
             {
                 "freq": "Q3.freq",
@@ -893,7 +893,7 @@
                 "dest": "Q3.qdrv",
                 "twidth": 3e-08,
                 "t0": 0,
-                "amp": 0.35958,
+                "amp": 0.35758,
                 "env": {
                     "env_func": "DRAG",
                     "paradict": {
@@ -906,7 +906,7 @@
             {
                 "gate": "virtualz",
                 "freq": "Q3.freq",
-                "phase": 0.076219
+                "phase": 0.079509
             }
         ],
         "Q3X90_ef": [
@@ -2165,7 +2165,7 @@
                 "dest": "Q2.qdrv",
                 "twidth": 4e-07,
                 "t0": 0,
-                "amp": 0.64296,
+                "amp": 0.6355,
                 "env": {
                     "env_func": "cos_edge_square",
                     "paradict": {
@@ -2175,11 +2175,11 @@
             },
             {
                 "freq": 4900000000.0,
-                "phase": 1.51019,
+                "phase": 1.45978,
                 "dest": "Q3.qdrv",
                 "twidth": 4e-07,
                 "t0": 0,
-                "amp": 0.64296,
+                "amp": 0.6355,
                 "env": {
                     "env_func": "cos_edge_square",
                     "paradict": {
@@ -2190,12 +2190,12 @@
             {
                 "gate": "virtualz",
                 "freq": "Q2.freq",
-                "phase": 0.84794
+                "phase": 0.70206
             },
             {
                 "gate": "virtualz",
                 "freq": "Q3.freq",
-                "phase": -1.98924
+                "phase": -1.29488
             }
         ]
     }
